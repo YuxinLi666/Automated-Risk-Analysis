@@ -1,0 +1,17 @@
+{
+  "work_order_id": "DEMO-001",
+  "fault_name": "发动机故障灯亮、动力不足",
+  "fault_description": "车辆行驶中亮故障灯并限扭",
+  "diagnosis": "检查发现排气温度传感器相关线束磨破",
+  "solution": "修复线束后试车正常",
+  "dtc_raw": "1877",
+  "dtc_codes": ["1877"],
+  "parts": [
+    {
+      "part_no": "5511695X",
+      "part_name": "温度传感器",
+      "culprit": true
+    }
+  ]
+}
+

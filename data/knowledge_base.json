@@ -1,0 +1,4711 @@
+{
+  "subsystems": {
+    "INTAKE_BOOST": "进气与增压系统",
+    "GAS_SUPPLY": "燃气供给系统",
+    "IGNITION": "点火系统",
+    "ENGINE_MECHANICAL": "发动机机械系统",
+    "VALVETRAIN": "配气机构",
+    "LUBRICATION": "润滑系统",
+    "COOLING": "冷却系统",
+    "CRANKCASE_VENT": "曲轴箱通风系统",
+    "START_CHARGE": "起动与充电系统",
+    "ECM_ELECTRICAL": "ECM与电气系统",
+    "AFTERTREATMENT": "排气后处理系统",
+    "ACCESSORY": "附件驱动系统",
+    "VEHICLE_SIDE": "车辆侧非发动机系统",
+    "MAINTENANCE": "保养/整改非故障",
+    "ENGINE_GENERAL": "发动机综合/未定位",
+    "UNKNOWN": "待确认子系统"
+  },
+  "components": {
+    "COMP_AE4D61FC30D0": {
+      "id": "COMP_AE4D61FC30D0",
+      "name": "曲轴",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "曲轴"
+      ],
+      "part_numbers": [
+        "2882729X"
+      ]
+    },
+    "COMP_9F8D394EF97E": {
+      "id": "COMP_9F8D394EF97E",
+      "name": "发电机",
+      "subsystem_id": "START_CHARGE",
+      "aliases": [
+        "发电机"
+      ],
+      "part_numbers": [
+        "5633056X",
+        "C5558694X",
+        "C5633056X"
+      ]
+    },
+    "COMP_91F37145A81C": {
+      "id": "COMP_91F37145A81C",
+      "name": "压力温度传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "压力温度传感器"
+      ],
+      "part_numbers": [
+        "2897334X",
+        "4384132X",
+        "C4384132X",
+        "D2897334X"
+      ]
+    },
+    "COMP_5F6768F1E995": {
+      "id": "COMP_5F6768F1E995",
+      "name": "皮带涨紧轮",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "皮带涨紧轮"
+      ],
+      "part_numbers": [
+        "3102888X",
+        "5582944X",
+        "5662763X",
+        "C5664082X"
+      ]
+    },
+    "COMP_8EC3EB10CF9B": {
+      "id": "COMP_8EC3EB10CF9B",
+      "name": "点火线圈",
+      "subsystem_id": "IGNITION",
+      "aliases": [
+        "点火线圈"
+      ],
+      "part_numbers": [
+        "5537310X",
+        "C5537310X",
+        "C5557908X",
+        "C6494203X",
+        "C6494204X"
+      ]
+    },
+    "COMP_A59F0E29C6D0": {
+      "id": "COMP_A59F0E29C6D0",
+      "name": "惰轮",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "惰轮"
+      ],
+      "part_numbers": [
+        "C4936437X"
+      ]
+    },
+    "COMP_EF4D2E5A8725": {
+      "id": "COMP_EF4D2E5A8725",
+      "name": "皮带涨紧轮支架",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "皮带涨紧轮支架"
+      ],
+      "part_numbers": [
+        "4920437X"
+      ]
+    },
+    "COMP_681E06519DB0": {
+      "id": "COMP_681E06519DB0",
+      "name": "其它零件",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "其它零件"
+      ],
+      "part_numbers": [
+        "OTHERSX"
+      ]
+    },
+    "COMP_9D54F2C17FBA": {
+      "id": "COMP_9D54F2C17FBA",
+      "name": "双头平螺柱",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "双头平螺柱"
+      ],
+      "part_numbers": [
+        "4936931X"
+      ]
+    },
+    "COMP_2F402D9A3ABD": {
+      "id": "COMP_2F402D9A3ABD",
+      "name": "V型多楔带",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "V型多楔带"
+      ],
+      "part_numbers": [
+        "4982924X",
+        "5465837X",
+        "5664081X",
+        "C5465834X",
+        "C5465837X",
+        "C5664081X"
+      ]
+    },
+    "COMP_DDEFE442F3BC": {
+      "id": "COMP_DDEFE442F3BC",
+      "name": "电子故障检修",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "电子故障检修"
+      ],
+      "part_numbers": [
+        "6866606X"
+      ]
+    },
+    "COMP_7D99C6C41488": {
+      "id": "COMP_7D99C6C41488",
+      "name": "气门间隙",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "气门间隙"
+      ],
+      "part_numbers": [
+        "4320040X"
+      ]
+    },
+    "COMP_73A6B7535180": {
+      "id": "COMP_73A6B7535180",
+      "name": "ECM标定",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "ECM标定"
+      ],
+      "part_numbers": [
+        "4320042X"
+      ]
+    },
+    "COMP_636B520DA8A9": {
+      "id": "COMP_636B520DA8A9",
+      "name": "发动机风扇",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "发动机风扇"
+      ],
+      "part_numbers": [
+        "4319872X",
+        "5560363X",
+        "6388485X",
+        "6492538X"
+      ]
+    },
+    "COMP_46E5DF974096": {
+      "id": "COMP_46E5DF974096",
+      "name": "动力转向泵密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "动力转向泵密封垫"
+      ],
+      "part_numbers": [
+        "3940245X",
+        "4988280X",
+        "C3940245X"
+      ]
+    },
+    "COMP_6D4DE2660132": {
+      "id": "COMP_6D4DE2660132",
+      "name": "空压机",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "空压机"
+      ],
+      "part_numbers": [
+        "4974668X",
+        "5667903X",
+        "C5580010X"
+      ]
+    },
+    "COMP_641F46AE7E4C": {
+      "id": "COMP_641F46AE7E4C",
+      "name": "机油滤清器座",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "机油滤清器座"
+      ],
+      "part_numbers": [
+        "3406949X"
+      ]
+    },
+    "COMP_836B876C873E": {
+      "id": "COMP_836B876C873E",
+      "name": "温度传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "温度传感器"
+      ],
+      "part_numbers": [
+        "2872792X",
+        "2872858X",
+        "4088832X",
+        "4954574X",
+        "4954905X",
+        "5462425X",
+        "5511695X",
+        "5511699X",
+        "5511901X",
+        "5511902X",
+        "5654076X",
+        "5654077X",
+        "5698321X",
+        "6306757X",
+        "C4088832X",
+        "C4954905X",
+        "D2872858X"
+      ]
+    },
+    "COMP_6177923A27AF": {
+      "id": "COMP_6177923A27AF",
+      "name": "燃油压力调节器",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "燃油压力调节器"
+      ],
+      "part_numbers": [
+        "C5612407X",
+        "C6302883X",
+        "C6308206X",
+        "C6473559X"
+      ]
+    },
+    "COMP_808DC12B28F9": {
+      "id": "COMP_808DC12B28F9",
+      "name": "火花塞",
+      "subsystem_id": "IGNITION",
+      "aliases": [
+        "火花塞"
+      ],
+      "part_numbers": [
+        "5557905X",
+        "C5557905X"
+      ]
+    },
+    "COMP_45C1427BDCE7": {
+      "id": "COMP_45C1427BDCE7",
+      "name": "成型管",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "成型管"
+      ],
+      "part_numbers": [
+        "5560552X",
+        "C5515636X",
+        "C5661366X",
+        "C5682606X"
+      ]
+    },
+    "COMP_F649C0A4C139": {
+      "id": "COMP_F649C0A4C139",
+      "name": "增压器回油管",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器回油管"
+      ],
+      "part_numbers": [
+        "5560149X"
+      ]
+    },
+    "COMP_BBE426DFC6FA": {
+      "id": "COMP_BBE426DFC6FA",
+      "name": "氧传感器",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "氧传感器"
+      ],
+      "part_numbers": [
+        "4384382X",
+        "5572015X",
+        "C5714867X",
+        "C5714868X"
+      ]
+    },
+    "COMP_535EAB532E27": {
+      "id": "COMP_535EAB532E27",
+      "name": "后处理装置",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "后处理装置"
+      ],
+      "part_numbers": [
+        "5509751X",
+        "5511126X",
+        "5511604X",
+        "5514941X",
+        "5516204X"
+      ]
+    },
+    "COMP_80A985F6E8C3": {
+      "id": "COMP_80A985F6E8C3",
+      "name": "湿度传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "湿度传感器"
+      ],
+      "part_numbers": [
+        "C4384340X"
+      ]
+    },
+    "COMP_E82B8B37DFD6": {
+      "id": "COMP_E82B8B37DFD6",
+      "name": "压力传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "压力传感器"
+      ],
+      "part_numbers": [
+        "4384678X",
+        "4921517X",
+        "5462277X",
+        "5491435X",
+        "C4928594X",
+        "D4928594X"
+      ]
+    },
+    "COMP_1BFE2F9692C6": {
+      "id": "COMP_1BFE2F9692C6",
+      "name": "节流阀",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "节流阀"
+      ],
+      "part_numbers": [
+        "5537303X",
+        "C5537303X"
+      ]
+    },
+    "COMP_1D87CF4EB758": {
+      "id": "COMP_1D87CF4EB758",
+      "name": "油底壳",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "油底壳"
+      ],
+      "part_numbers": [
+        "5680911X",
+        "C5680911X",
+        "C6463316X"
+      ]
+    },
+    "COMP_56F5105CD822": {
+      "id": "COMP_56F5105CD822",
+      "name": "“红旋风”国六发动机专用油 -CK-4 10W-30 -18L",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "“红旋风”国六发动机专用油 -CK-4 10W-30 -18L"
+      ],
+      "part_numbers": [
+        "TK10018X"
+      ]
+    },
+    "COMP_9FA6FEB42015": {
+      "id": "COMP_9FA6FEB42015",
+      "name": "空气控制阀",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "空气控制阀"
+      ],
+      "part_numbers": [
+        "5614174X",
+        "C5614174X"
+      ]
+    },
+    "COMP_042EFBE14F7B": {
+      "id": "COMP_042EFBE14F7B",
+      "name": "进气歧管密封垫",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "进气歧管密封垫"
+      ],
+      "part_numbers": [
+        "5666259X",
+        "C5666259X"
+      ]
+    },
+    "COMP_815D0C23630C": {
+      "id": "COMP_815D0C23630C",
+      "name": "3903112 六角法兰面螺栓DCEC",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "3903112 六角法兰面螺栓DCEC"
+      ],
+      "part_numbers": [
+        "I3903112X"
+      ]
+    },
+    "COMP_C02BE86D0308": {
+      "id": "COMP_C02BE86D0308",
+      "name": "T形螺栓卡箍",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "T形螺栓卡箍"
+      ],
+      "part_numbers": [
+        "5684690X",
+        "C5687378X"
+      ]
+    },
+    "COMP_6ACDF26E54A0": {
+      "id": "COMP_6ACDF26E54A0",
+      "name": "增压器",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器"
+      ],
+      "part_numbers": [
+        "5553365X",
+        "5641426X",
+        "C5641426X",
+        "C5699663X"
+      ]
+    },
+    "COMP_024ADEF6CB76": {
+      "id": "COMP_024ADEF6CB76",
+      "name": "防冻液-36(10KG)",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "防冻液-36(10KG)"
+      ],
+      "part_numbers": [
+        "FD3610X"
+      ]
+    },
+    "COMP_2F6858EEF6DD": {
+      "id": "COMP_2F6858EEF6DD",
+      "name": "曲轴箱通风件",
+      "subsystem_id": "CRANKCASE_VENT",
+      "aliases": [
+        "曲轴箱通风件"
+      ],
+      "part_numbers": [
+        "4974922X",
+        "C5661364X"
+      ]
+    },
+    "COMP_8037D5D5227F": {
+      "id": "COMP_8037D5D5227F",
+      "name": "压差传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "压差传感器"
+      ],
+      "part_numbers": [
+        "4384687X",
+        "C4384687X"
+      ]
+    },
+    "COMP_B23932058F8E": {
+      "id": "COMP_B23932058F8E",
+      "name": "水泵",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "水泵"
+      ],
+      "part_numbers": [
+        "5582555X",
+        "C5582555X"
+      ]
+    },
+    "COMP_21A6F45E26DA": {
+      "id": "COMP_21A6F45E26DA",
+      "name": "缸盖密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "缸盖密封垫"
+      ],
+      "part_numbers": [
+        "4022500X",
+        "5537768X",
+        "C5537768X"
+      ]
+    },
+    "COMP_148F2B81552F": {
+      "id": "COMP_148F2B81552F",
+      "name": "缸盖",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "缸盖"
+      ],
+      "part_numbers": [
+        "2864028X",
+        "C6317057X"
+      ]
+    },
+    "COMP_1936874321BB": {
+      "id": "COMP_1936874321BB",
+      "name": "排气歧管密封垫",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "排气歧管密封垫"
+      ],
+      "part_numbers": [
+        "5612838X",
+        "C3683940X",
+        "C5582029X",
+        "C5612838X",
+        "C5687902X"
+      ]
+    },
+    "COMP_692DB99A9097": {
+      "id": "COMP_692DB99A9097",
+      "name": "模块支架",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "模块支架"
+      ],
+      "part_numbers": [
+        "C5683225X"
+      ]
+    },
+    "COMP_130D9CA68400": {
+      "id": "COMP_130D9CA68400",
+      "name": "继电器开关",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "继电器开关"
+      ],
+      "part_numbers": [
+        "5560142X",
+        "5560426X",
+        "C6501567X"
+      ]
+    },
+    "COMP_92487D032E57": {
+      "id": "COMP_92487D032E57",
+      "name": "电控模块线束",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "电控模块线束"
+      ],
+      "part_numbers": [
+        "2864512X",
+        "2864514X",
+        "5614232X",
+        "6517390X",
+        "C5687355X",
+        "C5712095X",
+        "C5713965X",
+        "C6323516X"
+      ]
+    },
+    "COMP_037139F0454E": {
+      "id": "COMP_037139F0454E",
+      "name": "防冻液-25(10KG)",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "防冻液-25(10KG)"
+      ],
+      "part_numbers": [
+        "FD2510X"
+      ]
+    },
+    "COMP_8EEC5EDFA1F0": {
+      "id": "COMP_8EEC5EDFA1F0",
+      "name": "油底壳密封垫",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "油底壳密封垫"
+      ],
+      "part_numbers": [
+        "5663193X",
+        "C5663193X"
+      ]
+    },
+    "COMP_0034349FCEB3": {
+      "id": "COMP_0034349FCEB3",
+      "name": "机油滤清器",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "机油滤清器"
+      ],
+      "part_numbers": [
+        "5465813X",
+        "5559889X",
+        "5581701X",
+        "C5465813X"
+      ]
+    },
+    "COMP_1D0D520DB449": {
+      "id": "COMP_1D0D520DB449",
+      "name": "康明斯“红旋风”天然气专用油10W-30-4L",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "康明斯“红旋风”天然气专用油10W-30-4L"
+      ],
+      "part_numbers": [
+        "CG61004X"
+      ]
+    },
+    "COMP_9AB9D2E2DAFC": {
+      "id": "COMP_9AB9D2E2DAFC",
+      "name": "活塞",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "活塞"
+      ],
+      "part_numbers": [
+        "5685247X",
+        "C5685247X"
+      ]
+    },
+    "COMP_D1EA813BEA34": {
+      "id": "COMP_D1EA813BEA34",
+      "name": "活塞压缩环",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "活塞压缩环"
+      ],
+      "part_numbers": [
+        "5680123X",
+        "5685249X",
+        "C5680123X",
+        "C5685249X"
+      ]
+    },
+    "COMP_30F7231BE027": {
+      "id": "COMP_30F7231BE027",
+      "name": "O型密封圈",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "O型密封圈"
+      ],
+      "part_numbers": [
+        "3035026X",
+        "3035027X",
+        "5558311X",
+        "C3679139X",
+        "C4316067X",
+        "C4389332X",
+        "C5558311X"
+      ]
+    },
+    "COMP_91ADE1E49966": {
+      "id": "COMP_91ADE1E49966",
+      "name": "连杆轴瓦",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "连杆轴瓦"
+      ],
+      "part_numbers": [
+        "C4389280X",
+        "C4389281X"
+      ]
+    },
+    "COMP_04BADD84783A": {
+      "id": "COMP_04BADD84783A",
+      "name": "活塞环扩张器",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "活塞环扩张器"
+      ],
+      "part_numbers": [
+        "C5537277X"
+      ]
+    },
+    "COMP_84C6D4A67F67": {
+      "id": "COMP_84C6D4A67F67",
+      "name": "油环",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "油环"
+      ],
+      "part_numbers": [
+        "5537277X",
+        "5537278X",
+        "C5537278X"
+      ]
+    },
+    "COMP_CDFFBFDEBD74": {
+      "id": "COMP_CDFFBFDEBD74",
+      "name": "活塞销",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "活塞销"
+      ],
+      "part_numbers": [
+        "C5575590X"
+      ]
+    },
+    "COMP_E4050A8DFA4B": {
+      "id": "COMP_E4050A8DFA4B",
+      "name": "康明斯“红旋风”天然气专用油10W-30-18L",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "康明斯“红旋风”天然气专用油10W-30-18L"
+      ],
+      "part_numbers": [
+        "CG61018X"
+      ]
+    },
+    "COMP_94655660C6E8": {
+      "id": "COMP_94655660C6E8",
+      "name": "挡圈",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "挡圈"
+      ],
+      "part_numbers": [
+        "5664364X",
+        "C5664364X"
+      ]
+    },
+    "COMP_F82F81BD9041": {
+      "id": "COMP_F82F81BD9041",
+      "name": "缸套",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "缸套"
+      ],
+      "part_numbers": [
+        "5537405X",
+        "C5664365X"
+      ]
+    },
+    "COMP_E3F414A54F99": {
+      "id": "COMP_E3F414A54F99",
+      "name": "摇臂",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "摇臂"
+      ],
+      "part_numbers": [
+        "5486335X",
+        "5612687X",
+        "5680204X",
+        "5680209X",
+        "C5580029X",
+        "C5580032X",
+        "C5612687X"
+      ]
+    },
+    "COMP_8B64D6654BA4": {
+      "id": "COMP_8B64D6654BA4",
+      "name": "飞轮",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "飞轮"
+      ],
+      "part_numbers": [
+        "C5593037X"
+      ]
+    },
+    "COMP_D59210F7040D": {
+      "id": "COMP_D59210F7040D",
+      "name": "增压器密封垫",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器密封垫"
+      ],
+      "part_numbers": [
+        "5688521X",
+        "C5626113X",
+        "C5688521X"
+      ]
+    },
+    "COMP_3EC4FDE9CE59": {
+      "id": "COMP_3EC4FDE9CE59",
+      "name": "起动机",
+      "subsystem_id": "START_CHARGE",
+      "aliases": [
+        "起动机"
+      ],
+      "part_numbers": [
+        "5560068X",
+        "5684696X",
+        "C5566664X",
+        "C5612901X",
+        "C5684696X"
+      ]
+    },
+    "COMP_4463193FA5C2": {
+      "id": "COMP_4463193FA5C2",
+      "name": "动力转向泵",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "动力转向泵"
+      ],
+      "part_numbers": [
+        "C5656387X"
+      ]
+    },
+    "COMP_CE1919788088": {
+      "id": "COMP_CE1919788088",
+      "name": "电控模块",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "电控模块"
+      ],
+      "part_numbers": [
+        "4354660X",
+        "5491911X",
+        "5654089X",
+        "C5491911X",
+        "C5594165X",
+        "C5654089X"
+      ]
+    },
+    "COMP_E79ADE0D2ABB": {
+      "id": "COMP_E79ADE0D2ABB",
+      "name": "转接盘密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "转接盘密封垫"
+      ],
+      "part_numbers": [
+        "5509532X",
+        "5509836X",
+        "C5509836X"
+      ]
+    },
+    "COMP_E258A50EDF68": {
+      "id": "COMP_E258A50EDF68",
+      "name": "高温双头螺柱",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "高温双头螺柱"
+      ],
+      "part_numbers": [
+        "4327413X"
+      ]
+    },
+    "COMP_33FF07450800": {
+      "id": "COMP_33FF07450800",
+      "name": "盖板",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "盖板"
+      ],
+      "part_numbers": [
+        "5465839X"
+      ]
+    },
+    "COMP_EEB96E0B8AC4": {
+      "id": "COMP_EEB96E0B8AC4",
+      "name": "燃油测量阀",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "燃油测量阀"
+      ],
+      "part_numbers": [
+        "C5612435X",
+        "C6506026X"
+      ]
+    },
+    "COMP_415CD20E77EA": {
+      "id": "COMP_415CD20E77EA",
+      "name": "EGR阀",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "EGR阀"
+      ],
+      "part_numbers": [
+        "5582529X",
+        "C5582529X"
+      ]
+    },
+    "COMP_FD1FE3678AAA": {
+      "id": "COMP_FD1FE3678AAA",
+      "name": "点火控制模块",
+      "subsystem_id": "IGNITION",
+      "aliases": [
+        "点火控制模块"
+      ],
+      "part_numbers": [
+        "5515646X",
+        "C5515646X"
+      ]
+    },
+    "COMP_424DB40436B6": {
+      "id": "COMP_424DB40436B6",
+      "name": "隔热罩",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "隔热罩"
+      ],
+      "part_numbers": [
+        "C5614192X"
+      ]
+    },
+    "COMP_841D674E00A6": {
+      "id": "COMP_841D674E00A6",
+      "name": "后处理密封垫",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "后处理密封垫"
+      ],
+      "part_numbers": [
+        "5509541X",
+        "5512411X"
+      ]
+    },
+    "COMP_2E74288B80D3": {
+      "id": "COMP_2E74288B80D3",
+      "name": "泄压阀",
+      "subsystem_id": "CRANKCASE_VENT",
+      "aliases": [
+        "泄压阀"
+      ],
+      "part_numbers": [
+        "C6471803X"
+      ]
+    },
+    "COMP_2FB33BEA1055": {
+      "id": "COMP_2FB33BEA1055",
+      "name": "止推瓦",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "止推瓦"
+      ],
+      "part_numbers": [
+        "4389271X",
+        "4389272X",
+        "5472333X",
+        "C4389271X",
+        "C4389272X"
+      ]
+    },
+    "COMP_75DB00AE3A9B": {
+      "id": "COMP_75DB00AE3A9B",
+      "name": "止回阀",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "止回阀"
+      ],
+      "part_numbers": [
+        "5267080X"
+      ]
+    },
+    "COMP_DDA4DDFAAE54": {
+      "id": "COMP_DDA4DDFAAE54",
+      "name": "V型卡箍",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "V型卡箍"
+      ],
+      "part_numbers": [
+        "3684312X",
+        "4319817X",
+        "5508954X",
+        "5664627X",
+        "C5664627X",
+        "C5714865X"
+      ]
+    },
+    "COMP_1B1E172F377A": {
+      "id": "COMP_1B1E172F377A",
+      "name": "风扇支架",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "风扇支架"
+      ],
+      "part_numbers": [
+        "C6323549X"
+      ]
+    },
+    "COMP_B7147922FC25": {
+      "id": "COMP_B7147922FC25",
+      "name": "气门摇臂桥",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "气门摇臂桥"
+      ],
+      "part_numbers": [
+        "C5465691X",
+        "C5580027X"
+      ]
+    },
+    "COMP_2339C5D4914F": {
+      "id": "COMP_2339C5D4914F",
+      "name": "连杆螺栓",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "连杆螺栓"
+      ],
+      "part_numbers": [
+        "4389276X",
+        "C4389276X"
+      ]
+    },
+    "COMP_D80C2118156F": {
+      "id": "COMP_D80C2118156F",
+      "name": "气门室罩盖密封垫",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "气门室罩盖密封垫"
+      ],
+      "part_numbers": [
+        "C5581930X"
+      ]
+    },
+    "COMP_496380F3390F": {
+      "id": "COMP_496380F3390F",
+      "name": "线束",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "线束"
+      ],
+      "part_numbers": [
+        "3897656X",
+        "5667958X",
+        "C5575752X",
+        "C5613926X"
+      ]
+    },
+    "COMP_3C0A0B67744E": {
+      "id": "COMP_3C0A0B67744E",
+      "name": "TA-H46-300713AMT 变速箱",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "TA-H46-300713AMT 变速箱"
+      ],
+      "part_numbers": [
+        "5720606X"
+      ]
+    },
+    "COMP_9EB3D56E0A4B": {
+      "id": "COMP_9EB3D56E0A4B",
+      "name": "排气管",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "排气管"
+      ],
+      "part_numbers": [
+        "5582543X"
+      ]
+    },
+    "COMP_4745B350BCC7": {
+      "id": "COMP_4745B350BCC7",
+      "name": "排气节流阀/ETV阀",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "排气节流阀/ETV阀"
+      ],
+      "part_numbers": [
+        "C5565862X"
+      ]
+    },
+    "COMP_A3C0717534F8": {
+      "id": "COMP_A3C0717534F8",
+      "name": "EGR阀密封垫",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "EGR阀密封垫"
+      ],
+      "part_numbers": [
+        "C3104230X",
+        "C5253019X",
+        "C5685437X"
+      ]
+    },
+    "COMP_21736BBC2F85": {
+      "id": "COMP_21736BBC2F85",
+      "name": "EGR冷却器",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "EGR冷却器"
+      ],
+      "part_numbers": [
+        "5663727X",
+        "C5663727X"
+      ]
+    },
+    "COMP_9B96A8030FFD": {
+      "id": "COMP_9B96A8030FFD",
+      "name": "节温器",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "节温器"
+      ],
+      "part_numbers": [
+        "3696214X",
+        "3696215X"
+      ]
+    },
+    "COMP_6E72F013B7F9": {
+      "id": "COMP_6E72F013B7F9",
+      "name": "增压器进油管",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器进油管"
+      ],
+      "part_numbers": [
+        "5687805X",
+        "C5687805X"
+      ]
+    },
+    "COMP_8CB6B9A6F4E2": {
+      "id": "COMP_8CB6B9A6F4E2",
+      "name": "法兰密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "法兰密封垫"
+      ],
+      "part_numbers": [
+        "4960136X"
+      ]
+    },
+    "COMP_2E2E7CBB6237": {
+      "id": "COMP_2E2E7CBB6237",
+      "name": "盖板密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "盖板密封垫"
+      ],
+      "part_numbers": [
+        "5465840X",
+        "C5465840X"
+      ]
+    },
+    "COMP_B49F739001E0": {
+      "id": "COMP_B49F739001E0",
+      "name": "异型密封圈",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "异型密封圈"
+      ],
+      "part_numbers": [
+        "5593017X",
+        "C5593017X"
+      ]
+    },
+    "COMP_00235EDDFFBD": {
+      "id": "COMP_00235EDDFFBD",
+      "name": "凸轮轴",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "凸轮轴"
+      ],
+      "part_numbers": [
+        "C5580104X"
+      ]
+    },
+    "COMP_AFF0DEFC21D8": {
+      "id": "COMP_AFF0DEFC21D8",
+      "name": "增压器冷却液管",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器冷却液管"
+      ],
+      "part_numbers": [
+        "C5614201X"
+      ]
+    },
+    "COMP_1F59FC826002": {
+      "id": "COMP_1F59FC826002",
+      "name": "燃油滤清器滤芯",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "燃油滤清器滤芯"
+      ],
+      "part_numbers": [
+        "5371001X",
+        "C5371001X"
+      ]
+    },
+    "COMP_FA1BE826B45C": {
+      "id": "COMP_FA1BE826B45C",
+      "name": "15N整机",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "15N整机"
+      ],
+      "part_numbers": [
+        "7270403X"
+      ]
+    },
+    "COMP_AE6B3FB2E79C": {
+      "id": "COMP_AE6B3FB2E79C",
+      "name": "回油管密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "回油管密封垫"
+      ],
+      "part_numbers": [
+        "C4891288X"
+      ]
+    },
+    "COMP_0761784D0E6E": {
+      "id": "COMP_0761784D0E6E",
+      "name": "带O型圈接头",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "带O型圈接头"
+      ],
+      "part_numbers": [
+        "C4365122X"
+      ]
+    },
+    "COMP_9CCC7AC992D2": {
+      "id": "COMP_9CCC7AC992D2",
+      "name": "排气门",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "排气门"
+      ],
+      "part_numbers": [
+        "3697156X",
+        "C6311730X"
+      ]
+    },
+    "COMP_EED1F037A433": {
+      "id": "COMP_EED1F037A433",
+      "name": "管夹",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "管夹"
+      ],
+      "part_numbers": [
+        "3819725X",
+        "4920417X",
+        "C5682207X",
+        "C5685727X"
+      ]
+    },
+    "COMP_B61066BA90AA": {
+      "id": "COMP_B61066BA90AA",
+      "name": "散热器进水管",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "散热器进水管"
+      ],
+      "part_numbers": []
+    },
+    "COMP_D2A64481E70A": {
+      "id": "COMP_D2A64481E70A",
+      "name": "机油标尺",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "机油标尺"
+      ],
+      "part_numbers": [
+        "C5669824X"
+      ]
+    },
+    "COMP_CA8DCBC2EE49": {
+      "id": "COMP_CA8DCBC2EE49",
+      "name": "火花塞适配器管",
+      "subsystem_id": "IGNITION",
+      "aliases": [
+        "火花塞适配器管"
+      ],
+      "part_numbers": [
+        "C5575695X"
+      ]
+    },
+    "COMP_BE2621F8562C": {
+      "id": "COMP_BE2621F8562C",
+      "name": "TA-H39-300827 变速箱",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "TA-H39-300827 变速箱"
+      ],
+      "part_numbers": [
+        "5720762X"
+      ]
+    },
+    "COMP_0CB65A7C7913": {
+      "id": "COMP_0CB65A7C7913",
+      "name": "进气门",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "进气门"
+      ],
+      "part_numbers": [
+        "4926069X",
+        "5557883X",
+        "C5669132X"
+      ]
+    },
+    "COMP_54651C77D2E7": {
+      "id": "COMP_54651C77D2E7",
+      "name": "防尘密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "防尘密封垫"
+      ],
+      "part_numbers": [
+        "C5664241X"
+      ]
+    },
+    "COMP_E4557631D4D6": {
+      "id": "COMP_E4557631D4D6",
+      "name": "线性离合器执行器维修包",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "线性离合器执行器维修包"
+      ],
+      "part_numbers": [
+        "5720687X"
+      ]
+    },
+    "COMP_8D8AC31B54D4": {
+      "id": "COMP_8D8AC31B54D4",
+      "name": "机油冷却器",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "机油冷却器"
+      ],
+      "part_numbers": [
+        "4386525X"
+      ]
+    },
+    "COMP_6F5B8C5EE6B3": {
+      "id": "COMP_6F5B8C5EE6B3",
+      "name": "油封",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "油封"
+      ],
+      "part_numbers": [
+        "5465735X",
+        "5575343X",
+        "C5465735X"
+      ]
+    },
+    "COMP_C229755B6D3F": {
+      "id": "COMP_C229755B6D3F",
+      "name": "“红旋风”国六发动机专用油 -CK-4 10W-30 -4L",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "“红旋风”国六发动机专用油 -CK-4 10W-30 -4L"
+      ],
+      "part_numbers": [
+        "TK10004X"
+      ]
+    },
+    "COMP_A8EE824715A5": {
+      "id": "COMP_A8EE824715A5",
+      "name": "TA-H30-300676AMT变速箱",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "TA-H30-300676AMT变速箱"
+      ],
+      "part_numbers": [
+        "5560374X"
+      ]
+    },
+    "COMP_DD62925780C9": {
+      "id": "COMP_DD62925780C9",
+      "name": "发动机制动电磁阀",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "发动机制动电磁阀"
+      ],
+      "part_numbers": [
+        "5664146X"
+      ]
+    },
+    "COMP_AC18E7CB1DC5": {
+      "id": "COMP_AC18E7CB1DC5",
+      "name": "变速箱",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "变速箱"
+      ],
+      "part_numbers": [
+        "TA-H31-300658X",
+        "TA-H46-300713X"
+      ]
+    },
+    "COMP_80FCC9780566": {
+      "id": "COMP_80FCC9780566",
+      "name": "波纹管",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "波纹管"
+      ],
+      "part_numbers": [
+        "C5681297X"
+      ]
+    },
+    "COMP_A39307A0BC3C": {
+      "id": "COMP_A39307A0BC3C",
+      "name": "输气管",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "输气管"
+      ],
+      "part_numbers": [
+        "C6394601X",
+        "C6394602X",
+        "C6416278X",
+        "C6416286X"
+      ]
+    },
+    "COMP_0293805D4819": {
+      "id": "COMP_0293805D4819",
+      "name": "排气管套",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "排气管套"
+      ],
+      "part_numbers": [
+        "C3688976X"
+      ]
+    },
+    "COMP_BAE44C59E50D": {
+      "id": "COMP_BAE44C59E50D",
+      "name": "支架支撑",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "支架支撑"
+      ],
+      "part_numbers": [
+        "C5682100X",
+        "C5687127X"
+      ]
+    },
+    "COMP_2E1EB856272E": {
+      "id": "COMP_2E1EB856272E",
+      "name": "排气歧管",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "排气歧管"
+      ],
+      "part_numbers": [
+        "5581941X",
+        "5612222X",
+        "C5612220X",
+        "C5669728X",
+        "C5712528X",
+        "C6416289X"
+      ]
+    },
+    "COMP_336C1F62F7E9": {
+      "id": "COMP_336C1F62F7E9",
+      "name": "EGR出水管",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "EGR出水管"
+      ],
+      "part_numbers": [
+        "C5685731X"
+      ]
+    },
+    "COMP_7529D2736E2D": {
+      "id": "COMP_7529D2736E2D",
+      "name": "空压机进水管",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "空压机进水管"
+      ],
+      "part_numbers": [
+        "3400563X",
+        "3417943X",
+        "C5537603X"
+      ]
+    },
+    "COMP_464C4D9E46C8": {
+      "id": "COMP_464C4D9E46C8",
+      "name": "内螺纹接头",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "内螺纹接头"
+      ],
+      "part_numbers": [
+        "5537343X"
+      ]
+    },
+    "COMP_A7AC4D46D2D5": {
+      "id": "COMP_A7AC4D46D2D5",
+      "name": "爆震传感器",
+      "subsystem_id": "IGNITION",
+      "aliases": [
+        "爆震传感器"
+      ],
+      "part_numbers": [
+        "D2897654X"
+      ]
+    },
+    "COMP_D53E7BDFBB19": {
+      "id": "COMP_D53E7BDFBB19",
+      "name": "外螺纹接头",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "外螺纹接头"
+      ],
+      "part_numbers": [
+        "4004381X",
+        "C4975343X",
+        "C4999903X",
+        "C5612631X"
+      ]
+    },
+    "COMP_BBB8CFAE81B2": {
+      "id": "COMP_BBB8CFAE81B2",
+      "name": "出水管",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "出水管"
+      ],
+      "part_numbers": [
+        "3899375X"
+      ]
+    },
+    "COMP_9B084B257C07": {
+      "id": "COMP_9B084B257C07",
+      "name": "10盘位硬盘保护箱",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "10盘位硬盘保护箱"
+      ],
+      "part_numbers": [
+        "10004356X"
+      ]
+    },
+    "COMP_BEA63A411B7A": {
+      "id": "COMP_BEA63A411B7A",
+      "name": "锁紧螺母",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "锁紧螺母"
+      ],
+      "part_numbers": [
+        "4298975X"
+      ]
+    },
+    "COMP_00F2C5140074": {
+      "id": "COMP_00F2C5140074",
+      "name": "连接密封垫",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "连接密封垫"
+      ],
+      "part_numbers": [
+        "C4932615X"
+      ]
+    },
+    "COMP_1D5945D9A812": {
+      "id": "COMP_1D5945D9A812",
+      "name": "换挡执行器总成维修包",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "换挡执行器总成维修包"
+      ],
+      "part_numbers": [
+        "5720758X"
+      ]
+    },
+    "COMP_D093BA538C14": {
+      "id": "COMP_D093BA538C14",
+      "name": "燃油快速切断阀-VALVAUT-7901107",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "燃油快速切断阀-VALVAUT-7901107"
+      ],
+      "part_numbers": [
+        "10002349X"
+      ]
+    },
+    "COMP_4FF4FF93C23D": {
+      "id": "COMP_4FF4FF93C23D",
+      "name": "西康红旋风专用柴机油-CI-20W-50-18L",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "西康红旋风专用柴机油-CI-20W-50-18L"
+      ],
+      "part_numbers": [
+        "DI32018X"
+      ]
+    },
+    "COMP_2871027B567C": {
+      "id": "COMP_2871027B567C",
+      "name": "风扇离合器",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "风扇离合器"
+      ],
+      "part_numbers": [
+        "4974440X"
+      ]
+    },
+    "COMP_2C5271658CEE": {
+      "id": "COMP_2C5271658CEE",
+      "name": "尿素质量液位温度传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "尿素质量液位温度传感器"
+      ],
+      "part_numbers": [
+        "5510367X"
+      ]
+    },
+    "COMP_98942CAB2F07": {
+      "id": "COMP_98942CAB2F07",
+      "name": "摇臂室密封垫",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "摇臂室密封垫"
+      ],
+      "part_numbers": [
+        "4319277X"
+      ]
+    },
+    "COMP_231A2F8C6BF8": {
+      "id": "COMP_231A2F8C6BF8",
+      "name": "ECJV 变速箱服务软件",
+      "subsystem_id": "VEHICLE_SIDE",
+      "aliases": [
+        "ECJV 变速箱服务软件"
+      ],
+      "part_numbers": [
+        "10005660X"
+      ]
+    },
+    "COMP_31E03B6E52BB": {
+      "id": "COMP_31E03B6E52BB",
+      "name": "加机油口盖",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "加机油口盖"
+      ],
+      "part_numbers": [
+        "C5255448X"
+      ]
+    },
+    "COMP_4A068051ACA8": {
+      "id": "COMP_4A068051ACA8",
+      "name": "燃油滤清器",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "燃油滤清器"
+      ],
+      "part_numbers": [
+        "5486894X",
+        "5559835X",
+        "4320012X"
+      ]
+    },
+    "COMP_E41EE5E957EB": {
+      "id": "COMP_E41EE5E957EB",
+      "name": "安全阀",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "安全阀"
+      ],
+      "part_numbers": [
+        "5560444X"
+      ]
+    },
+    "COMP_8AE0C1B264D2": {
+      "id": "COMP_8AE0C1B264D2",
+      "name": "15N天然气发动机缸体号改制打刻机支架",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "15N天然气发动机缸体号改制打刻机支架"
+      ],
+      "part_numbers": [
+        "50001993X"
+      ]
+    },
+    "COMP_EC66A872A6A8": {
+      "id": "COMP_EC66A872A6A8",
+      "name": "缸体",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "缸体"
+      ],
+      "part_numbers": [
+        "6437081X",
+        "C5684482X"
+      ]
+    },
+    "COMP_AE86DC881570": {
+      "id": "COMP_AE86DC881570",
+      "name": "位置传感器",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "位置传感器"
+      ],
+      "part_numbers": [
+        "4327230X",
+        "5491744X",
+        "4326595X"
+      ]
+    },
+    "COMP_CABB7A2E6B08": {
+      "id": "COMP_CABB7A2E6B08",
+      "name": "油水分离器-festo-FRC-D-MIDI-1/2",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "油水分离器-festo-FRC-D-MIDI-1/2"
+      ],
+      "part_numbers": [
+        "10002469X"
+      ]
+    },
+    "COMP_3E56115835C7": {
+      "id": "COMP_3E56115835C7",
+      "name": "飞轮壳",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "飞轮壳"
+      ],
+      "part_numbers": [
+        "C5612688X"
+      ]
+    },
+    "COMP_80B5BEAD6135": {
+      "id": "COMP_80B5BEAD6135",
+      "name": "气门杆油封",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "气门杆油封"
+      ],
+      "part_numbers": [
+        "5547792X"
+      ]
+    },
+    "COMP_C4187D7ED247": {
+      "id": "COMP_C4187D7ED247",
+      "name": "尿素喷嘴",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "尿素喷嘴"
+      ],
+      "part_numbers": [
+        "5506856X"
+      ]
+    },
+    "COMP_D43BC3BA49C6": {
+      "id": "COMP_D43BC3BA49C6",
+      "name": "凸轮轴衬套",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "凸轮轴衬套"
+      ],
+      "part_numbers": [
+        "C4389314X",
+        "C4389313X"
+      ]
+    },
+    "COMP_868921F593A7": {
+      "id": "COMP_868921F593A7",
+      "name": "活塞冷却喷嘴",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "活塞冷却喷嘴"
+      ],
+      "part_numbers": [
+        "C5614172X",
+        "5614172X",
+        "C6519222X"
+      ]
+    },
+    "COMP_A2AE3EE8E5D2": {
+      "id": "COMP_A2AE3EE8E5D2",
+      "name": "标定",
+      "subsystem_id": "MAINTENANCE",
+      "aliases": [
+        "标定"
+      ],
+      "part_numbers": [
+        "5720812X"
+      ]
+    },
+    "COMP_68E5E40D53D8": {
+      "id": "COMP_68E5E40D53D8",
+      "name": "进气连接件",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "进气连接件"
+      ],
+      "part_numbers": [
+        "C5669806X"
+      ]
+    },
+    "COMP_22C042C04EEB": {
+      "id": "COMP_22C042C04EEB",
+      "name": "催化剂模块",
+      "subsystem_id": "AFTERTREATMENT",
+      "aliases": [
+        "催化剂模块"
+      ],
+      "part_numbers": [
+        "5507457X"
+      ]
+    },
+    "COMP_A171519DC399": {
+      "id": "COMP_A171519DC399",
+      "name": "防锈器",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "防锈器"
+      ],
+      "part_numbers": [
+        "5559890X"
+      ]
+    },
+    "COMP_DA8ADE8F148F": {
+      "id": "COMP_DA8ADE8F148F",
+      "name": "西康红旋风专用柴机油-CI-15W-40-18L",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "西康红旋风专用柴机油-CI-15W-40-18L"
+      ],
+      "part_numbers": [
+        "DI31518X"
+      ]
+    },
+    "COMP_D02D4EFF4E3C": {
+      "id": "COMP_D02D4EFF4E3C",
+      "name": "空压机出水管",
+      "subsystem_id": "COOLING",
+      "aliases": [
+        "空压机出水管"
+      ],
+      "part_numbers": [
+        "5688004X",
+        "C5682597X"
+      ]
+    },
+    "COMP_54962CE48063": {
+      "id": "COMP_54962CE48063",
+      "name": "快插接头",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "快插接头"
+      ],
+      "part_numbers": [
+        "C4365688X"
+      ]
+    },
+    "COMP_2D55F7CF35AB": {
+      "id": "COMP_2D55F7CF35AB",
+      "name": "滚珠轴承",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "滚珠轴承"
+      ],
+      "part_numbers": [
+        "C5612729X"
+      ]
+    },
+    "COMP_B3D1AF7273DC": {
+      "id": "COMP_B3D1AF7273DC",
+      "name": "曲轴箱通风适配器",
+      "subsystem_id": "CRANKCASE_VENT",
+      "aliases": [
+        "曲轴箱通风适配器"
+      ],
+      "part_numbers": [
+        "C5663514X"
+      ]
+    },
+    "COMP_9646B5B4B602": {
+      "id": "COMP_9646B5B4B602",
+      "name": "弯管接头",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "弯管接头"
+      ],
+      "part_numbers": [
+        "C5615163X"
+      ]
+    },
+    "COMP_AC67D025A9F4": {
+      "id": "COMP_AC67D025A9F4",
+      "name": "管道阀门接头:阀门:CELPUMPOP5",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "管道阀门接头:阀门:CELPUMPOP5"
+      ],
+      "part_numbers": [
+        "10005394X"
+      ]
+    },
+    "COMP_DC9B32679AD2": {
+      "id": "COMP_DC9B32679AD2",
+      "name": "气阀_DWAF_VAP125D",
+      "subsystem_id": "GAS_SUPPLY",
+      "aliases": [
+        "气阀_DWAF_VAP125D"
+      ],
+      "part_numbers": [
+        "50001221X"
+      ]
+    },
+    "COMP_3520E4084630": {
+      "id": "COMP_3520E4084630",
+      "name": "进水连接件",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "进水连接件"
+      ],
+      "part_numbers": [
+        "C5684124X"
+      ]
+    },
+    "COMP_FD6E3F7F88F8": {
+      "id": "COMP_FD6E3F7F88F8",
+      "name": "标定软件",
+      "subsystem_id": "MAINTENANCE",
+      "aliases": [
+        "标定软件"
+      ],
+      "part_numbers": [
+        "SC82313"
+      ]
+    },
+    "COMP_AED09218DCE6": {
+      "id": "COMP_AED09218DCE6",
+      "name": "检修孔盖",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "检修孔盖"
+      ],
+      "part_numbers": [
+        "3026135X"
+      ]
+    },
+    "COMP_81F2C06BFEAC": {
+      "id": "COMP_81F2C06BFEAC",
+      "name": "性能测试",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "性能测试"
+      ],
+      "part_numbers": [
+        "LE 2001"
+      ]
+    },
+    "COMP_2B1A47537288": {
+      "id": "COMP_2B1A47537288",
+      "name": "出胶稳压器-固瑞克",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "出胶稳压器-固瑞克"
+      ],
+      "part_numbers": [
+        "10004502X"
+      ]
+    },
+    "COMP_EE59982D1322": {
+      "id": "COMP_EE59982D1322",
+      "name": "变速箱标定",
+      "subsystem_id": "MAINTENANCE",
+      "aliases": [
+        "变速箱标定"
+      ],
+      "part_numbers": [
+        "5720530X"
+      ]
+    },
+    "COMP_68229ECB3331": {
+      "id": "COMP_68229ECB3331",
+      "name": "ECM标定记次",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "ECM标定记次"
+      ],
+      "part_numbers": [
+        "3886396X"
+      ]
+    },
+    "COMP_276D4D691010": {
+      "id": "COMP_276D4D691010",
+      "name": "发动机控制参数",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "发动机控制参数"
+      ],
+      "part_numbers": [
+        "5646924X"
+      ]
+    },
+    "COMP_C1EB29A49A2F": {
+      "id": "COMP_C1EB29A49A2F",
+      "name": "“红旋风”国六发动机专用油CK-4-10W-30-18L",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "“红旋风”国六发动机专用油CK-4-10W-30-18L"
+      ],
+      "part_numbers": [
+        "TK61018X"
+      ]
+    },
+    "COMP_04B5FE95F6C1": {
+      "id": "COMP_04B5FE95F6C1",
+      "name": "西康红旋风尿素-10L圆桶72",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "西康红旋风尿素-10L圆桶72"
+      ],
+      "part_numbers": [
+        "NS7211X"
+      ]
+    },
+    "COMP_365AA3FB7B01": {
+      "id": "COMP_365AA3FB7B01",
+      "name": "发动机控制模块线束",
+      "subsystem_id": "ECM_ELECTRICAL",
+      "aliases": [
+        "发动机控制模块线束"
+      ],
+      "part_numbers": [
+        "5560138X"
+      ]
+    },
+    "COMP_E94FBD044831": {
+      "id": "COMP_E94FBD044831",
+      "name": "西康高效尿素-10L圆桶90",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "西康高效尿素-10L圆桶90"
+      ],
+      "part_numbers": [
+        "NS9011X"
+      ]
+    },
+    "COMP_F105274AEB9A": {
+      "id": "COMP_F105274AEB9A",
+      "name": "双头法兰螺栓",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "双头法兰螺栓"
+      ],
+      "part_numbers": [
+        "C5565317X"
+      ]
+    },
+    "COMP_7EFD79D56DCC": {
+      "id": "COMP_7EFD79D56DCC",
+      "name": "六角法兰面螺栓",
+      "subsystem_id": "ENGINE_MECHANICAL",
+      "aliases": [
+        "六角法兰面螺栓"
+      ],
+      "part_numbers": [
+        "C3280899X",
+        "3093826X"
+      ]
+    },
+    "COMP_0AE1D3219438": {
+      "id": "COMP_0AE1D3219438",
+      "name": "凸轮从动轴",
+      "subsystem_id": "VALVETRAIN",
+      "aliases": [
+        "凸轮从动轴"
+      ],
+      "part_numbers": [
+        "3417766X"
+      ]
+    },
+    "COMP_F49730A65862": {
+      "id": "COMP_F49730A65862",
+      "name": "INSITE PRO REGISTRATIONINSITE PRO 系统标定软件",
+      "subsystem_id": "MAINTENANCE",
+      "aliases": [
+        "INSITE PRO REGISTRATIONINSITE PRO 系统标定软件"
+      ],
+      "part_numbers": [
+        "3886391X"
+      ]
+    },
+    "COMP_50A093D3D688": {
+      "id": "COMP_50A093D3D688",
+      "name": "西康红旋风专用柴机油-CH-15W-40-18L",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "西康红旋风专用柴机油-CH-15W-40-18L"
+      ],
+      "part_numbers": [
+        "DH31518X"
+      ]
+    },
+    "COMP_B1BBB4D180CA": {
+      "id": "COMP_B1BBB4D180CA",
+      "name": "增压器回水管",
+      "subsystem_id": "INTAKE_BOOST",
+      "aliases": [
+        "增压器回水管"
+      ],
+      "part_numbers": [
+        "C5614205X"
+      ]
+    },
+    "COMP_0A02665B2A20": {
+      "id": "COMP_0A02665B2A20",
+      "name": "其他类GENERAL/通用ZKHWT0361",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "其他类GENERAL/通用ZKHWT0361"
+      ],
+      "part_numbers": [
+        "10005048X"
+      ]
+    },
+    "COMP_6ED69D7E0560": {
+      "id": "COMP_6ED69D7E0560",
+      "name": "风扇皮带轮",
+      "subsystem_id": "ACCESSORY",
+      "aliases": [
+        "风扇皮带轮"
+      ],
+      "part_numbers": [
+        "C6322366X"
+      ]
+    },
+    "COMP_0B1D1ED0F56E": {
+      "id": "COMP_0B1D1ED0F56E",
+      "name": "机油泵",
+      "subsystem_id": "LUBRICATION",
+      "aliases": [
+        "机油泵"
+      ],
+      "part_numbers": [
+        "C5633082X"
+      ]
+    },
+    "COMP_8C3730FF3BF2": {
+      "id": "COMP_8C3730FF3BF2",
+      "name": "旁通水管",
+      "subsystem_id": "UNKNOWN",
+      "aliases": [
+        "旁通水管"
+      ],
+      "part_numbers": [
+        "6444562X"
+      ]
+    }
+  },
+  "dtc": {
+    "111": {
+      "code": "111",
+      "description": "发动机控制模块出现严重内部错误 - 智能设备或部件损坏",
+      "local_description": "发动机ECM异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "115": {
+      "code": "115",
+      "description": "发动机磁性转速/位置两个信号都丢失 - 数据不稳定、间断或不正确",
+      "local_description": "发动机转速和凸轮轴位置信号都丢失",
+      "component_id": "COMP_00235EDDFFBD",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "122": {
+      "code": "122",
+      "description": "进气歧管 1 压力传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气歧管压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "123": {
+      "code": "123",
+      "description": "进气歧管 1 压力传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气歧管压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "124": {
+      "code": "124",
+      "description": "进气歧管 1 压力 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机进气歧管压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "125": {
+      "code": "125",
+      "description": "进气歧管 1 压力 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机进气歧管压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "131": {
+      "code": "131",
+      "description": "油门踏板或操纵杆位置传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "车辆油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "132": {
+      "code": "132",
+      "description": "油门踏板或操纵杆位置传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "车辆油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "135": {
+      "code": "135",
+      "description": "发动机机油油道压力 1 传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机机油压力信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "141": {
+      "code": "141",
+      "description": "发动机机油油道压力 1 传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机机油压力信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "143": {
+      "code": "143",
+      "description": "发动机机油油道压力 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机机油压力过低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "144": {
+      "code": "144",
+      "description": "发动机冷却液温度 1 传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机水温信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "145": {
+      "code": "145",
+      "description": "发动机冷却液温度 1 传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机水温信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "146": {
+      "code": "146",
+      "description": "发动机冷却液温度 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机水温过高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "147": {
+      "code": "147",
+      "description": "油门踏板或操纵杆位置 1 传感器电路频率 - 数据有效但低于正常工作范围 -最高严重级别",
+      "local_description": "频率油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "148": {
+      "code": "148",
+      "description": "油门踏板或操纵杆位置传感器 1 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "频率油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "151": {
+      "code": "151",
+      "description": "发动机冷却液温度 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机水温极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "153": {
+      "code": "153",
+      "description": "进气歧管 1 温度传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气歧管温度信号故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "154": {
+      "code": "154",
+      "description": "进气歧管 1 温度传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气歧管温度信号故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "155": {
+      "code": "155",
+      "description": "进气歧管 1 温度 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机进气歧管温度极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "175": {
+      "code": "175",
+      "description": "电子节气门控制执行器驱动电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气节气门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "176": {
+      "code": "176",
+      "description": "电子油门控制执行器驱动电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气节气门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "187": {
+      "code": "187",
+      "description": "传感器电源 2 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机2号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "195": {
+      "code": "195",
+      "description": "冷却液液位传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机冷却液位信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "196": {
+      "code": "196",
+      "description": "冷却液液位传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机冷却液位信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "197": {
+      "code": "197",
+      "description": "冷却液液位 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机冷却液位过低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "212": {
+      "code": "212",
+      "description": "发动机机油温度传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机机油温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "213": {
+      "code": "213",
+      "description": "发动机机油温度传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机机油温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "214": {
+      "code": "214",
+      "description": "发动机机油温度 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机机油温度极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "227": {
+      "code": "227",
+      "description": "传感器电源 2 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机2号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "234": {
+      "code": "234",
+      "description": "发动机曲轴转速/位置 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机超速",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "235": {
+      "code": "235",
+      "description": "冷却液液位 - 数据有效但低于正常工作范围 - 最高严重级别",
+      "local_description": "发动机冷却液位极低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "238": {
+      "code": "238",
+      "description": "传感器电源 3 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机3号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "239": {
+      "code": "239",
+      "description": "传感器电源 3 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机3号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "245": {
+      "code": "245",
+      "description": "风扇控制电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机风扇控制电路故障",
+      "component_id": "COMP_636B520DA8A9",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "249": {
+      "code": "249",
+      "description": "环境空气温度传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "环境温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "254": {
+      "code": "254",
+      "description": "发动机燃油切断阀驱动电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机燃气切断阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "255": {
+      "code": "255",
+      "description": "发动机燃油切断阀驱动电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机燃气切断阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "256": {
+      "code": "256",
+      "description": "环境空气温度传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "环境温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "263": {
+      "code": "263",
+      "description": "发动机 1 号燃油温度传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机燃气温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "265": {
+      "code": "265",
+      "description": "发动机燃油温度传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机燃气温度信号电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "285": {
+      "code": "285",
+      "description": "SAE J1939 多路通信 PGN 超时错误 - 更新速率异常",
+      "local_description": "发动机多路通讯中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "286": {
+      "code": "286",
+      "description": "SAE J1939 多路通信配置错误 - 超出标定",
+      "local_description": "发动机多路通讯数据异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "288": {
+      "code": "288",
+      "description": "SAE J1939 多路通信远程油门踏板或操纵杆位置传感器系统 - 接收的网络数据错误",
+      "local_description": "车辆远程油门信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "311": {
+      "code": "311",
+      "description": "1 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机1号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "312": {
+      "code": "312",
+      "description": "5 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机5号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "313": {
+      "code": "313",
+      "description": "3 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机3号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "314": {
+      "code": "314",
+      "description": "6 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机6号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "315": {
+      "code": "315",
+      "description": "2 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机2号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "321": {
+      "code": "321",
+      "description": "4 号缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机4号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "322": {
+      "code": "322",
+      "description": "1 号气缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机1号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "323": {
+      "code": "323",
+      "description": "5 号缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机5号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "324": {
+      "code": "324",
+      "description": "3 号气缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机3号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "325": {
+      "code": "325",
+      "description": "6 号缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机6号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "331": {
+      "code": "331",
+      "description": "2 号气缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机2号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "332": {
+      "code": "332",
+      "description": "4 号气缸喷油器电磁阀驱动器电路 - 电流低于正常值或开路",
+      "local_description": "发动机4号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "334": {
+      "code": "334",
+      "description": "发动机冷却液温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机水温信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "338": {
+      "code": "338",
+      "description": "怠速停机车辆附件继电器驱动电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机怠速停机继电器电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "339": {
+      "code": "339",
+      "description": "怠速停机车辆附件继电器驱动电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机怠速停机继电器电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "343": {
+      "code": "343",
+      "description": "发动机控制模块警告内部硬件故障 - 智能设备或部件损坏",
+      "local_description": "发动机ECM异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "346": {
+      "code": "346",
+      "description": "发动机控制模块标定存储器软件 - 智能设备或部件损坏",
+      "local_description": "发动机ECM异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "352": {
+      "code": "352",
+      "description": "传感器电源 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机1号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "386": {
+      "code": "386",
+      "description": "传感器电源 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机1号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "415": {
+      "code": "415",
+      "description": "发动机机油油道压力 - 数据有效但低于正常工作范围 - 最高严重级别",
+      "local_description": "发动机机油压力极低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "421": {
+      "code": "421",
+      "description": "发动机机油温度 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机机油温度高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "425": {
+      "code": "425",
+      "description": "发动机机油温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机机油温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "435": {
+      "code": "435",
+      "description": "发动机机油油道压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机机油压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "436": {
+      "code": "436",
+      "description": "进气歧管 1 温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机进气歧管温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "441": {
+      "code": "441",
+      "description": "蓄电池 1 电压 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "蓄电池电压低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "442": {
+      "code": "442",
+      "description": "蓄电池 1 电压 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "蓄电池电压高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "458": {
+      "code": "458",
+      "description": "点火正时信号电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机点火正时信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "459": {
+      "code": "459",
+      "description": "点火正时信号电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机点火正时信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "461": {
+      "code": "461",
+      "description": "点火控制信号电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机点火参考信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "462": {
+      "code": "462",
+      "description": "点火控制信号电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机点火参考信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "465": {
+      "code": "465",
+      "description": "涡轮增压器 1 废气旁通阀控制电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机增压废气旁通电路故障",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "466": {
+      "code": "466",
+      "description": "发动机涡轮增压器废气旁通阀执行器 1 位置电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机增压废气旁通电路故障",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "488": {
+      "code": "488",
+      "description": "进气歧管 1 温度 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机进气歧管温度高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "512": {
+      "code": "512",
+      "description": "1 号油门位置传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气节气门位置信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "513": {
+      "code": "513",
+      "description": "1 号油门位置传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气节气门位置信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "514": {
+      "code": "514",
+      "description": "电子燃油喷射控制阀 - 机械系统不响应或失调",
+      "local_description": "发动机多个燃气喷射阀卡滞",
+      "component_id": null,
+      "failure_mode_id": "STUCK"
+    },
+    "535": {
+      "code": "535",
+      "description": "发动机燃油温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机燃气温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "555": {
+      "code": "555",
+      "description": "曲轴箱压力 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机曲轴箱压力高",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "556": {
+      "code": "556",
+      "description": "曲轴箱压力 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机曲轴箱压力极高",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "561": {
+      "code": "561",
+      "description": "发动机 1 号气缸 (A1) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机1缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "562": {
+      "code": "562",
+      "description": "发动机 2 号气缸 (B1) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机2缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "563": {
+      "code": "563",
+      "description": "发动机 3 号气缸 (A2) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机3缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "564": {
+      "code": "564",
+      "description": "发动机 4 号气缸 (B2) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机4缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "565": {
+      "code": "565",
+      "description": "发动机 5 号气缸 (A3) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机5缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "566": {
+      "code": "566",
+      "description": "发动机 6 号气缸 (B3) 爆震 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机6缸严重爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "572": {
+      "code": "572",
+      "description": "发动机 2 号气缸 (B1) 爆震 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机爆震传感器电路故障",
+      "component_id": "COMP_A7AC4D46D2D5",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "575": {
+      "code": "575",
+      "description": "发动机 5 号气缸 (A3) 爆震 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机爆震传感器电路故障",
+      "component_id": "COMP_A7AC4D46D2D5",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "584": {
+      "code": "584",
+      "description": "发动机起动马达继电器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "起动机保护继电器故障",
+      "component_id": "COMP_3EC4FDE9CE59",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "585": {
+      "code": "585",
+      "description": "发动机起动马达继电器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "起动机保护继电器故障",
+      "component_id": "COMP_3EC4FDE9CE59",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "596": {
+      "code": "596",
+      "description": "电气充电系统电压 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发电机输出电压高",
+      "component_id": "COMP_9F8D394EF97E",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "597": {
+      "code": "597",
+      "description": "电气充电系统电压 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发电机输出电压低",
+      "component_id": "COMP_9F8D394EF97E",
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "649": {
+      "code": "649",
+      "description": "发动机机油更换间隔 - 存在问题",
+      "local_description": "请及时保养,更换发动机机油",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "689": {
+      "code": "689",
+      "description": "发动机曲轴转速/位置 - 数据不稳定、间断或不正确",
+      "local_description": "发动机转速信号丢失",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "693": {
+      "code": "693",
+      "description": "涡轮增压器 1 压缩机进口温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机增压进口温度信号异常",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "731": {
+      "code": "731",
+      "description": "发动机转速/位置传感器凸轮轴和曲轴未对准 - 机械系统不响应或失调",
+      "local_description": "发动机曲轴和凸轮轴正时相位不匹配",
+      "component_id": "COMP_00235EDDFFBD",
+      "failure_mode_id": null
+    },
+    "743": {
+      "code": "743",
+      "description": "涡轮增压器 1 压缩机进口压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机增压进口压力信号异常",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "778": {
+      "code": "778",
+      "description": "发动机凸轮轴转速/位置传感器 - 数据不稳定、间断或不正确",
+      "local_description": "发动机凸轮轴位置信号丢失",
+      "component_id": "COMP_00235EDDFFBD",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "784": {
+      "code": "784",
+      "description": "自适应巡航控制模块 - 数据不稳定、间断或不正确",
+      "local_description": "车辆自适应巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1117": {
+      "code": "1117",
+      "description": "点火时断电 - 数据不稳定、间断或不正确",
+      "local_description": "发动机ECM运行或熄火后保存数据时被断电",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1228": {
+      "code": "1228",
+      "description": "EGR 阀位置 - 数据不稳定、间断或不正确",
+      "local_description": "发动机废气再循环控制阀故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1239": {
+      "code": "1239",
+      "description": "油门踏板或操纵杆位置传感器 2 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "车辆油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1241": {
+      "code": "1241",
+      "description": "油门踏板或操纵杆位置传感器 2 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "车辆油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1242": {
+      "code": "1242",
+      "description": "油门踏板或操纵杆位置传感器 1 - 数据不稳定、间断或不正确",
+      "local_description": "车辆油门信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1361": {
+      "code": "1361",
+      "description": "远程油门踏板或操纵杆位置传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "车辆远程油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1515": {
+      "code": "1515",
+      "description": "SAE J1939 多路通信油门踏板或操纵杆传感器系统 - 接收的网络数据错误",
+      "local_description": "车辆油门信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "1548": {
+      "code": "1548",
+      "description": "7 号气缸喷油器电磁阀驱动电路 - 电流低于正常值或开路",
+      "local_description": "发动机7号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "1549": {
+      "code": "1549",
+      "description": "8 号气缸喷油器电磁阀驱动电路 - 电流低于正常值或开路",
+      "local_description": "发动机8号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "1561": {
+      "code": "1561",
+      "description": "8 号气缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机8号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1595": {
+      "code": "1595",
+      "description": "远程油门踏板或操纵杆位置传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "车辆远程油门电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1623": {
+      "code": "1623",
+      "description": "7 号气缸喷油器电磁阀驱动电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机7号燃气喷嘴电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1665": {
+      "code": "1665",
+      "description": "后处理排气温度 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "第一级三元催化器出口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1666": {
+      "code": "1666",
+      "description": "后处理排气温度 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "第一级三元催化器出口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1667": {
+      "code": "1667",
+      "description": "后处理排气温度 1 - 数据不稳定、间断或不正确",
+      "local_description": "第一级三元催化器出口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1674": {
+      "code": "1674",
+      "description": "后处理排气温度 2 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "第二级三元催化器进口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1675": {
+      "code": "1675",
+      "description": "后处理排气温度 2 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "第二级三元催化器进口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1676": {
+      "code": "1676",
+      "description": "后处理排气温度 2 - 数据不稳定、间断或不正确",
+      "local_description": "第二级三元催化器进口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1695": {
+      "code": "1695",
+      "description": "传感器电源 5 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机5号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1696": {
+      "code": "1696",
+      "description": "传感器电源 5 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机5号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1717": {
+      "code": "1717",
+      "description": "后处理排气温度 1 - 数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "第一级三元催化器出口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1753": {
+      "code": "1753",
+      "description": "发动机燃料切断阀 2 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机燃气切断阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1827": {
+      "code": "1827",
+      "description": "发动机燃油阀 1 进气压力传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机燃气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1828": {
+      "code": "1828",
+      "description": "发动机燃油阀 1 进气压力传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机燃气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1831": {
+      "code": "1831",
+      "description": "发动机燃油切断阀反馈位置与所需位置不匹配 - 根本原因未知",
+      "local_description": "发动机燃气供气系统故障",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "1843": {
+      "code": "1843",
+      "description": "曲轴箱压力电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机曲轴箱压力信号故障",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1844": {
+      "code": "1844",
+      "description": "曲轴箱压力电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机曲轴箱压力信号故障",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1855": {
+      "code": "1855",
+      "description": "EGR 质量流量 - 数据有效但高于正常工作范围-中等严重级别",
+      "local_description": "发动机废气再循环流量高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1856": {
+      "code": "1856",
+      "description": "EGR 质量流量 - 数据有效但低于正常工作范围-中等严重级别",
+      "local_description": "发动机废气再循环流量低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "1858": {
+      "code": "1858",
+      "description": "后处理进口氧传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机后处理进口氧传电路故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1859": {
+      "code": "1859",
+      "description": "后处理进口氧传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机后处理进口氧传电路故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1862": {
+      "code": "1862",
+      "description": "后处理出口氧传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机后处理出口氧传电路故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1863": {
+      "code": "1863",
+      "description": "后处理出口氧传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机后处理出口氧传电路故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1866": {
+      "code": "1866",
+      "description": "废气再循环压差 - 数据不稳定、间断或不正确",
+      "local_description": "发动机废气再循环压差信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1867": {
+      "code": "1867",
+      "description": "废气再循环温度 - 数据不稳定、间断或不正确",
+      "local_description": "发动机废气再循环温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1876": {
+      "code": "1876",
+      "description": "后处理排气温度 3 电路 - 电压高于正常值或对高压电源短路。",
+      "local_description": "第二级三元催化器出口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "1877": {
+      "code": "1877",
+      "description": "后处理排气温度 3 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "第二级三元催化器出口温度传感器电路故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "1878": {
+      "code": "1878",
+      "description": "后处理排气温度 3 - 数据不稳定、间断或不正确",
+      "local_description": "第二级三元催化器出口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1896": {
+      "code": "1896",
+      "description": "EGR 阀控制器 - 超出标定",
+      "local_description": "发动机废气再循环控制阀故障",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "1942": {
+      "code": "1942",
+      "description": "曲轴箱压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机曲轴箱压力信号异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "1961": {
+      "code": "1961",
+      "description": "EGR 阀控制电路过热 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机废气再循环控制阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1965": {
+      "code": "1965",
+      "description": "后处理排气温度 1 - 数据有效但高于正常工作范围-中等严重级别",
+      "local_description": "第一级三元催化器出口温度高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1966": {
+      "code": "1966",
+      "description": "后处理排气温度 1 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "第一级三元催化器出口温度极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1967": {
+      "code": "1967",
+      "description": "后处理排气温度 2 - 数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "第二级三元催化器进口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1971": {
+      "code": "1971",
+      "description": "后处理排气温度 3 - 数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "第二级三元催化器出口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1972": {
+      "code": "1972",
+      "description": "后处理排气温度 3 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机后处理出口温度高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "1973": {
+      "code": "1973",
+      "description": "后处理排气温度 3 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机后处理出口温度极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2182": {
+      "code": "2182",
+      "description": "发动机制动执行器驱动器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2183": {
+      "code": "2183",
+      "description": "发动机制动执行器驱动器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2185": {
+      "code": "2185",
+      "description": "传感器电源 4 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机4号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2186": {
+      "code": "2186",
+      "description": "传感器电源 4 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机4号传感器电源供电异常",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2189": {
+      "code": "2189",
+      "description": "油门盘片泄漏 - 机械系统不响应或失调",
+      "local_description": "发动机进气节气门故障",
+      "component_id": null,
+      "failure_mode_id": "LEAK"
+    },
+    "2272": {
+      "code": "2272",
+      "description": "EGR 阀位置电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机废气再循环控制阀位置信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2273": {
+      "code": "2273",
+      "description": "废气再循环压差传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机废气再循环压差信号故障",
+      "component_id": "COMP_8037D5D5227F",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2274": {
+      "code": "2274",
+      "description": "废气再循环压差传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机废气再循环压差信号故障",
+      "component_id": "COMP_8037D5D5227F",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2298": {
+      "code": "2298",
+      "description": "发动机燃料切断阀驱动 2 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机燃气切断阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2321": {
+      "code": "2321",
+      "description": "发动机曲轴转速/位置 - 数据不稳定、间断或不正确",
+      "local_description": "发动机转速信号异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2322": {
+      "code": "2322",
+      "description": "发动机凸轮轴转速/位置传感器 - 数据不稳定、间断或不正确",
+      "local_description": "发动机凸轮轴位置信号异常",
+      "component_id": "COMP_00235EDDFFBD",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2349": {
+      "code": "2349",
+      "description": "EGR 阀控制电路 - 电流低于正常值或开路",
+      "local_description": "发动机废气再循环控制阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "2353": {
+      "code": "2353",
+      "description": "EGR 阀控制电路 - 电流高于正常值或电路接地",
+      "local_description": "发动机废气再循环控制阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2363": {
+      "code": "2363",
+      "description": "发动机制动执行器驱动器输出 2 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2365": {
+      "code": "2365",
+      "description": "发动机制动执行器驱动器输出 3 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2367": {
+      "code": "2367",
+      "description": "发动机制动执行器驱动器输出 2 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2368": {
+      "code": "2368",
+      "description": "发动机制动执行器驱动器 3 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机制动电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2373": {
+      "code": "2373",
+      "description": "1 排排气压力传感器 1 电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机排气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2374": {
+      "code": "2374",
+      "description": "1 排排气压力传感器 1 电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机排气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2375": {
+      "code": "2375",
+      "description": "废气再循环温度传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机废气再循环温度信号故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2376": {
+      "code": "2376",
+      "description": "废气再循环温度传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机废气再循环温度信号故障",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2377": {
+      "code": "2377",
+      "description": "风扇控制电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机风扇控制电路故障",
+      "component_id": "COMP_636B520DA8A9",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2398": {
+      "code": "2398",
+      "description": "环境空气温度 - 数据不稳定、间断或不正确",
+      "local_description": "环境温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2431": {
+      "code": "2431",
+      "description": "发动机 1 号气缸 (A1) 爆震 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机1缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2432": {
+      "code": "2432",
+      "description": "发动机 2 号气缸 (B1) 爆震 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机2缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2433": {
+      "code": "2433",
+      "description": "发动机 3 号气缸 (A2) 爆震 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机3缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2434": {
+      "code": "2434",
+      "description": "发动机 4 号气缸 (B2) 爆震 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机4缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2435": {
+      "code": "2435",
+      "description": "发动机 5 号气缸 (A3) 爆震 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机5缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2436": {
+      "code": "2436",
+      "description": "发动机 6 号气缸(B3) 爆震 - 数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "发动机6缸爆震",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2448": {
+      "code": "2448",
+      "description": "冷却液液位 - 数据有效但低于正常工作范围 - 最低严重级别",
+      "local_description": "发动机冷却液位低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "2517": {
+      "code": "2517",
+      "description": "发动机涡轮增压器1增压传感器 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气中冷后压力信号电路故障",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2518": {
+      "code": "2518",
+      "description": "发动机涡轮增压器1增压传感器 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气中冷后压力信号电路故障",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2554": {
+      "code": "2554",
+      "description": "排气压力 1 - 数据不稳定、间断或不正确",
+      "local_description": "发动机排气压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2643": {
+      "code": "2643",
+      "description": "2 号油门位置传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机进气节气门位置信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2644": {
+      "code": "2644",
+      "description": "2 号油门位置传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机进气节气门位置信号电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2645": {
+      "code": "2645",
+      "description": "油门板位置传感器 1 和 2 - 数据不稳定、间断或不正确",
+      "local_description": "发动机进气节气门位置信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2682": {
+      "code": "2682",
+      "description": "后处理进口氧传感器电路 - 更新速率异常",
+      "local_description": "发动机后处理进口氧传通信中断",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "2688": {
+      "code": "2688",
+      "description": "后处理出口氧传感器加热器 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机后处理出口氧传加热器故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "2689": {
+      "code": "2689",
+      "description": "后处理出口氧传感器加热器 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机后处理出口氧传加热器故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "2696": {
+      "code": "2696",
+      "description": "大气温度 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "环境温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2722": {
+      "code": "2722",
+      "description": "发动机燃油阀 1 进气压力 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机燃气供气压力高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2723": {
+      "code": "2723",
+      "description": "发动机燃油阀 1 进气压力 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机燃气供气压力低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "2742": {
+      "code": "2742",
+      "description": "后处理排气温度 2 - 数据有效但低于正常工作范围 - 最低严重级别",
+      "local_description": "第二级三元催化器进口温度传感器信号异常",
+      "component_id": "COMP_836B876C873E",
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "2758": {
+      "code": "2758",
+      "description": "电子油门控制执行器 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机进气节气门故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2759": {
+      "code": "2759",
+      "description": "电子油门控制执行器 - 数据有效但低于正常工作范围 - 最高严重级别",
+      "local_description": "发动机进气节气门故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "2782": {
+      "code": "2782",
+      "description": "发动机涡轮增压器 1 增压压力 - 数据有效但高于正常工作范围-中等严重级别",
+      "local_description": "发动机增压出口压力过高",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2961": {
+      "code": "2961",
+      "description": "废气再循环温度 - 数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "发动机废气再循环温度高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2962": {
+      "code": "2962",
+      "description": "废气再循环温度 - 数据有效但高于正常工作范围-中等严重级别",
+      "local_description": "发动机废气再循环温度极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2963": {
+      "code": "2963",
+      "description": "发动机冷却液温度 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机水温高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2973": {
+      "code": "2973",
+      "description": "进气歧管 1 压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机进气歧管压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "2988": {
+      "code": "2988",
+      "description": "发动机进气质量流量 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机进气流量高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "2989": {
+      "code": "2989",
+      "description": "发动机进气质量流量 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机进气流量低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "2991": {
+      "code": "2991",
+      "description": "发动机燃油阀 1 进气压力 - 数据有效但低于正常工作范围 - 最高严重级别",
+      "local_description": "发动机燃气供气压力极低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "3136": {
+      "code": "3136",
+      "description": "发动机废气再循环出口压力传感器电路 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机废气再循环压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "3137": {
+      "code": "3137",
+      "description": "发动机废气再循环出口压力传感器电路 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机废气再循环压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "3138": {
+      "code": "3138",
+      "description": "发动机废气再循环出口压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机废气再循环压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "3186": {
+      "code": "3186",
+      "description": "行车自动记录仪输出轴转速 - 更新速率异常",
+      "local_description": "行车记录仪信号中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3213": {
+      "code": "3213",
+      "description": "行车自动记录仪输出轴转速 - 接收到错误的网络数据",
+      "local_description": "行车记录仪信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3243": {
+      "code": "3243",
+      "description": "发动机冷却系统监测器 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机水温升温慢",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "3326": {
+      "code": "3326",
+      "description": "SAE J1939 多路通信油门踏板或操纵杆传感器系统 - 更新速率异常",
+      "local_description": "车辆油门信号中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3328": {
+      "code": "3328",
+      "description": "变速箱输出轴转速 - 更新速率异常",
+      "local_description": "变速箱转速信号中断",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3367": {
+      "code": "3367",
+      "description": "特定湿度传感器 - 更新速度异常",
+      "local_description": "进气温湿度信号中断",
+      "component_id": "COMP_80A985F6E8C3",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3368": {
+      "code": "3368",
+      "description": "特定湿度传感器 - 接收到错误的网络数据",
+      "local_description": "进气温湿度信号异常",
+      "component_id": "COMP_80A985F6E8C3",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3374": {
+      "code": "3374",
+      "description": "滚翻保护制动控制为现行状态 - 状况存在",
+      "local_description": "车辆ESP激活,请谨慎驾驶",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "3377": {
+      "code": "3377",
+      "description": "发动机曲轴箱通风软管断开 - 状况存在",
+      "local_description": "发动机曲轴箱通风管路故障",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3418": {
+      "code": "3418",
+      "description": "变速箱输出轴转速 - 接收到错误的网络数据",
+      "local_description": "变速箱转速信号异常",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3436": {
+      "code": "3436",
+      "description": "后处理进口氧传感器 - 数据有效但高于正常工作范围-中等严重级别",
+      "local_description": "发动机后处理进口氧传探测到稀混合气",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "3437": {
+      "code": "3437",
+      "description": "后处理进口氧传感器 - 数据有效但低于正常工作范围-中等严重级别",
+      "local_description": "发动机后处理进口氧传探测到浓混合气",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "3488": {
+      "code": "3488",
+      "description": "防抱死制动(ABS)控制器 - 更新速率异常",
+      "local_description": "车辆ABS信号中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3514": {
+      "code": "3514",
+      "description": "发动机油门控制执行器 - 电流低于正常值或开路",
+      "local_description": "发动机进气节气门电路故障",
+      "component_id": null,
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "3525": {
+      "code": "3525",
+      "description": "基于车轮转数的车速 - 接收到不正确的网络数据",
+      "local_description": "车速信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3526": {
+      "code": "3526",
+      "description": "基于车轮转数的车速 - 更新速率异常",
+      "local_description": "车速信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3527": {
+      "code": "3527",
+      "description": "油门踏板或操纵杆怠速有效开关 - 接收的网络数据错误",
+      "local_description": "车辆油门信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3528": {
+      "code": "3528",
+      "description": "油门踏板或操纵杆怠速有效开关 - 更新速率异常",
+      "local_description": "车辆油门信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3531": {
+      "code": "3531",
+      "description": "环境空气温度 - 更新速率异常",
+      "local_description": "环境温度信号中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3532": {
+      "code": "3532",
+      "description": "环境空气温度 - 接收到错误的网络数据",
+      "local_description": "环境温度信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3697": {
+      "code": "3697",
+      "description": "发动机控制模块标定存储器 - 智能装置或部件故障",
+      "local_description": "发动机ECM异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3712": {
+      "code": "3712",
+      "description": "后处理 SCR 驾驶员激励 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "限速提示故障码",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "3714": {
+      "code": "3714",
+      "description": "发动机保护扭矩降低 - 状况出现",
+      "local_description": "发动机限扭提示故障码",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3724": {
+      "code": "3724",
+      "description": "EGR 阀控制电路 - 状况存在",
+      "local_description": "发动机废气再循环控制阀电路故障",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3737": {
+      "code": "3737",
+      "description": "发动机起动马达模式过度盘车保护 - 状况存在",
+      "local_description": "发动机起动马达进入防过度盘车保护状态",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "3843": {
+      "code": "3843",
+      "description": "巡航控制停用指令 - 更新速率异常",
+      "local_description": "车辆巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3844": {
+      "code": "3844",
+      "description": "巡航控制暂停指令 - 状况存在",
+      "local_description": "车辆巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3845": {
+      "code": "3845",
+      "description": "巡航控制停用指令 - 状况存在",
+      "local_description": "车辆巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "3916": {
+      "code": "3916",
+      "description": "基于车轮的车速 - 状况存在",
+      "local_description": "车速信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "4127": {
+      "code": "4127",
+      "description": "发动机排气排 2 压力传感器 1 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机排气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4128": {
+      "code": "4128",
+      "description": "发动机排气排 2 压力传感器 1 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机排气压力信号电路故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "4138": {
+      "code": "4138",
+      "description": "安全装置 - 更新速率异常",
+      "local_description": "车辆锁车功能激活",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "4139": {
+      "code": "4139",
+      "description": "安全装置 - 数据不稳定、间断或不正确",
+      "local_description": "车辆锁车功能激活",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4215": {
+      "code": "4215",
+      "description": "防抱死制动 (ABS) 激活 - 状况存在",
+      "local_description": "车辆ABS激活,请谨慎驾驶",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "4286": {
+      "code": "4286",
+      "description": "闭式曲轴箱通风系统压力传感器 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机曲轴箱通风压力信号故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4287": {
+      "code": "4287",
+      "description": "闭式曲轴箱通风系统压力传感器 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机曲轴箱通风压力信号故障",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "4288": {
+      "code": "4288",
+      "description": "闭式曲轴箱通风系统压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机曲轴箱通风压力信号异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4293": {
+      "code": "4293",
+      "description": "发动机制动激活灯 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机制动灯电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4294": {
+      "code": "4294",
+      "description": "发动机制动激活灯 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机制动灯电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "4489": {
+      "code": "4489",
+      "description": "SCR 监测系统故障 - 状况存在",
+      "local_description": "发动机后处理衍生故障码",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "4517": {
+      "code": "4517",
+      "description": "车辆识别号 - 超出标定",
+      "local_description": "车辆VIN未标定",
+      "component_id": null,
+      "failure_mode_id": "CALIBRATION"
+    },
+    "4621": {
+      "code": "4621",
+      "description": "发动机涡轮增压器 1 增压压力 - 数据不稳定、间断或不正确",
+      "local_description": "发动机进气中冷后压力信号异常",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4747": {
+      "code": "4747",
+      "description": "后处理进口氧传感器 - 数据不合理 - 漂移偏高",
+      "local_description": "发动机后处理进口氧传信号异常",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4748": {
+      "code": "4748",
+      "description": "后处理进口氧传感器 - 数据不合理 - 漂移偏低",
+      "local_description": "发动机后处理进口氧传信号异常",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4749": {
+      "code": "4749",
+      "description": "后处理出口氧气 - 数据不合理 - 漂移偏高",
+      "local_description": "发动机后处理出口氧传信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4751": {
+      "code": "4751",
+      "description": "后处理出口氧气 - 数据不合理 - 漂移偏低",
+      "local_description": "发动机后处理出口氧传信号异常",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "4786": {
+      "code": "4786",
+      "description": "发动机燃油阀 1 进气压力 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机燃气供气压力极高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "4855": {
+      "code": "4855",
+      "description": "发动机涡轮增压器 1 增压压力 - 状况存在",
+      "local_description": "发动机进气中冷后压力信号异常",
+      "component_id": "COMP_6ACDF26E54A0",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "4976": {
+      "code": "4976",
+      "description": "发动机 1 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机1缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4977": {
+      "code": "4977",
+      "description": "发动机 2 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机2缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4978": {
+      "code": "4978",
+      "description": "发动机 3 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机3缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4979": {
+      "code": "4979",
+      "description": "发动机 4 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机4缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4981": {
+      "code": "4981",
+      "description": "发动机 5 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机5缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "4982": {
+      "code": "4982",
+      "description": "发动机 6 号气缸点火正时 - 电压高于正常值或对高压电源短路",
+      "local_description": "发动机6缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_POWER"
+    },
+    "5111": {
+      "code": "5111",
+      "description": "后处理 1 三元催化器转换效率 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机后处理第一级三元催化器效率低",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "5173": {
+      "code": "5173",
+      "description": "变速箱允许发动机马达盘车 - 接收到错误的网络数据",
+      "local_description": "变速箱通信异常",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "5174": {
+      "code": "5174",
+      "description": "变速箱允许发动机马达盘车 - 更新速率异常",
+      "local_description": "变速箱通信中断",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "5248": {
+      "code": "5248",
+      "description": "行车自动记录仪输出轴转速 - 超出标定",
+      "local_description": "行车记录仪输出轴转速传感器故障",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "5297": {
+      "code": "5297",
+      "description": "发动机/变速箱匹配 - 超出标定",
+      "local_description": "变速箱通信异常",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "5298": {
+      "code": "5298",
+      "description": "发动机/变速箱匹配 - 接收到的网络数据错误",
+      "local_description": "变速箱通信异常",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "5368": {
+      "code": "5368",
+      "description": "长期燃油修整 - 1 排 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "发动机混合气过稀",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "5369": {
+      "code": "5369",
+      "description": "长期燃油修整 - 1 排 - 数据有效但低于正常工作范围 - 最高严重级别",
+      "local_description": "发动机混合气过浓",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "5895": {
+      "code": "5895",
+      "description": "发动机缺火气缸 #1 - 根本原因未知",
+      "local_description": "发动机1缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5896": {
+      "code": "5896",
+      "description": "发动机缺火气缸 #2 - 根本原因未知",
+      "local_description": "发动机2缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5897": {
+      "code": "5897",
+      "description": "发动机缺火气缸 #3 - 根本原因未知",
+      "local_description": "发动机3缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5898": {
+      "code": "5898",
+      "description": "发动机缺火气缸 #4 - 根本原因未知",
+      "local_description": "发动机4缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5899": {
+      "code": "5899",
+      "description": "发动机缺火气缸 #5 - 根本原因未知",
+      "local_description": "发动机5缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5911": {
+      "code": "5911",
+      "description": "发动机缺火气缸 #6 - 根本原因未知",
+      "local_description": "发动机6缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "5914": {
+      "code": "5914",
+      "description": "发动机多个气缸缺火 - 根本原因未知",
+      "local_description": "发动机多缸缺火",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "6413": {
+      "code": "6413",
+      "description": "发动机多个气缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机多缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6425": {
+      "code": "6425",
+      "description": "发动机 1号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机1缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6426": {
+      "code": "6426",
+      "description": "发动机 2号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机2缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6427": {
+      "code": "6427",
+      "description": "发动机 3 号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机3缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6428": {
+      "code": "6428",
+      "description": "发动机 4 号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机4缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6429": {
+      "code": "6429",
+      "description": "发动机 5号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机5缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6431": {
+      "code": "6431",
+      "description": "发动机 6 号 气 缸缺火 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机6缸严重缺火",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "6631": {
+      "code": "6631",
+      "description": "发动机点火控制模块 #1 - 更新速率异常",
+      "local_description": "发动机点火控制模块通信中断",
+      "component_id": "COMP_FD1FE3678AAA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "6724": {
+      "code": "6724",
+      "description": "变速箱齿轮比模块 - 更新速率异常",
+      "local_description": "变速箱齿速比信号中断",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "6932": {
+      "code": "6932",
+      "description": "发动机燃油进口压力传感器 - 数据不合理 - 漂移过高",
+      "local_description": "发动机燃气压力信号异常",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "6933": {
+      "code": "6933",
+      "description": "发动机燃油进口压力传感器 - 数据不合理 - 漂移过低",
+      "local_description": "发动机燃气压力信号异常",
+      "component_id": "COMP_E82B8B37DFD6",
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "6979": {
+      "code": "6979",
+      "description": "后处理 1 出口燃气传感器加热器 - 数据不稳定、间断或不正确",
+      "local_description": "发动机后处理出口氧传加热器故障",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_UNSTABLE"
+    },
+    "7125": {
+      "code": "7125",
+      "description": "变速箱通信故障怠速扭矩限制 - 状况存在",
+      "local_description": "变速箱通信异常",
+      "component_id": "COMP_AC18E7CB1DC5",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7127": {
+      "code": "7127",
+      "description": "发动机废气再循环质量流量 - 数据有效但高于正常工作范围 - 最低严重级别",
+      "local_description": "发动机废气再循环流量高",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "7172": {
+      "code": "7172",
+      "description": "后处理进口氧传感器 - 状况存在",
+      "local_description": "发动机后处理进口氧传高温故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7218": {
+      "code": "7218",
+      "description": "发动机排气压力 2 传感器 - 状况存在",
+      "local_description": "发动机排气压力信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7326": {
+      "code": "7326",
+      "description": "发动机曲轴箱呼吸器机油分离器转速 - 数据有效但高于正常工作范围 - 中等严重级别",
+      "local_description": "发动机曲轴箱呼吸机转速异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "7327": {
+      "code": "7327",
+      "description": "发动机曲轴箱呼吸器机油分离器转速 - 数据有效但低于正常工作范围 - 中等严重级别",
+      "local_description": "发动机曲轴箱呼吸机转速异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_LOW"
+    },
+    "7337": {
+      "code": "7337",
+      "description": "发动机曲轴箱压力-数据有效但高于正常工作范围-最低严重级别",
+      "local_description": "发动机曲轴箱压力异常",
+      "component_id": "COMP_AE4D61FC30D0",
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "7425": {
+      "code": "7425",
+      "description": "自适应巡航控制模式 - 更新速率异常",
+      "local_description": "车辆自适应巡航信号中断",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7426": {
+      "code": "7426",
+      "description": "自适应巡航控制模块 - 接收到错误的网络数据",
+      "local_description": "车辆自适应巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7427": {
+      "code": "7427",
+      "description": "巡航控制禁用指令 - 接收到错误的网络数据",
+      "local_description": "车辆巡航信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "7845": {
+      "code": "7845",
+      "description": "排放控制系统驾驶性能限制严重程度 - 数据有效但高于正常工作范围 - 最高严重级别",
+      "local_description": "限速提示故障码",
+      "component_id": null,
+      "failure_mode_id": "SIGNAL_HIGH"
+    },
+    "8265": {
+      "code": "8265",
+      "description": "后处理系统启用状态 - 特别说明",
+      "local_description": "发动机后处理衍生故障码",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11173": {
+      "code": "11173",
+      "description": "网络收发器状态 1 - 状况存在",
+      "local_description": "网络收发器通信故障",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11186": {
+      "code": "11186",
+      "description": "风扇转速 - 更新速率异常",
+      "local_description": "发动机风扇转速信号丢失",
+      "component_id": "COMP_636B520DA8A9",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11187": {
+      "code": "11187",
+      "description": "风扇转速 - 超出标定",
+      "local_description": "发动机风扇转速信号异常",
+      "component_id": "COMP_636B520DA8A9",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11243": {
+      "code": "11243",
+      "description": "后处理进口氧传感器 - 变化速率异常",
+      "local_description": "发动机后处理进口氧传通信异常",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11244": {
+      "code": "11244",
+      "description": "后处理进口氧传感器加热器控制 - 更新速率异常",
+      "local_description": "发动机后处理进口氧传加热器故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11245": {
+      "code": "11245",
+      "description": "后处理进口氧传感器 - 智能设备或部件损坏",
+      "local_description": "发动机后处理进口氧传电路故障",
+      "component_id": "COMP_BBE426DFC6FA",
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11336": {
+      "code": "11336",
+      "description": "TSC1 控制目的 - 更新速率异常",
+      "local_description": "扭矩转速控制器控制信号丢失",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    },
+    "11349": {
+      "code": "11349",
+      "description": "发动机气缸 1 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机1缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "11351": {
+      "code": "11351",
+      "description": "发动机气缸 2 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机2缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "11352": {
+      "code": "11352",
+      "description": "发动机气缸 3 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机3缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "11353": {
+      "code": "11353",
+      "description": "发动机气缸 4 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机4缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "11354": {
+      "code": "11354",
+      "description": "发动机气缸 5 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机5缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "11355": {
+      "code": "11355",
+      "description": "发动机气缸 6 点火正时 - 电压低于正常值或对低压电源短路",
+      "local_description": "发动机6缸点火正时电路故障",
+      "component_id": null,
+      "failure_mode_id": "SHORT_GROUND"
+    },
+    "12115": {
+      "code": "12115",
+      "description": "发动机1号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机1缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "12117": {
+      "code": "12117",
+      "description": "发动机2号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机2缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "12119": {
+      "code": "12119",
+      "description": "发动机3号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机3缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "12122": {
+      "code": "12122",
+      "description": "发动机4号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机4缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "12124": {
+      "code": "12124",
+      "description": "发动机5号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机5缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "12126": {
+      "code": "12126",
+      "description": "发动机6号气缸次级点火线圈电流低于正常值或开路",
+      "local_description": "发动机6缸点火线圈电路故障",
+      "component_id": "COMP_8EC3EB10CF9B",
+      "failure_mode_id": "OPEN_CIRCUIT"
+    },
+    "13814": {
+      "code": "13814",
+      "description": "后处理 1 三元催化器丢失 - 状况存在",
+      "local_description": "发动机后处理第二级三元催化器丢失",
+      "component_id": null,
+      "failure_mode_id": null
+    },
+    "14176": {
+      "code": "14176",
+      "description": "发动机怠速管理目标阀通信异常",
+      "local_description": "发动机怠速管理目标阀通信信号异常",
+      "component_id": null,
+      "failure_mode_id": "FUNCTION_FAILED"
+    }
+  },
+  "failure_modes": {
+    "BROKEN": {
+      "name": "断裂",
+      "keywords": [
+        "断裂",
+        "折断",
+        "破裂"
+      ]
+    },
+    "WORN": {
+      "name": "磨损",
+      "keywords": [
+        "磨损",
+        "磨破",
+        "拉伤"
+      ]
+    },
+    "LEAK": {
+      "name": "泄漏",
+      "keywords": [
+        "漏油",
+        "漏水",
+        "漏气",
+        "泄漏",
+        "渗漏"
+      ]
+    },
+    "BLOCKED": {
+      "name": "堵塞",
+      "keywords": [
+        "堵塞",
+        "阻塞",
+        "不畅"
+      ]
+    },
+    "STUCK": {
+      "name": "卡滞",
+      "keywords": [
+        "卡滞",
+        "卡死",
+        "发卡"
+      ]
+    },
+    "LOOSE": {
+      "name": "松动/脱落",
+      "keywords": [
+        "松动",
+        "脱落",
+        "松脱"
+      ]
+    },
+    "OPEN_CIRCUIT": {
+      "name": "开路",
+      "keywords": [
+        "开路",
+        "断路",
+        "线路断"
+      ]
+    },
+    "SHORT_GROUND": {
+      "name": "对地短路",
+      "keywords": [
+        "对地短路",
+        "低压电源短路"
+      ]
+    },
+    "SHORT_POWER": {
+      "name": "对电源短路",
+      "keywords": [
+        "对高压电源短路",
+        "电源短路"
+      ]
+    },
+    "SIGNAL_HIGH": {
+      "name": "信号/电压高",
+      "keywords": [
+        "电压高于",
+        "信号高",
+        "高于正常"
+      ]
+    },
+    "SIGNAL_LOW": {
+      "name": "信号/电压低",
+      "keywords": [
+        "电压低于",
+        "信号低",
+        "低于正常"
+      ]
+    },
+    "SIGNAL_UNSTABLE": {
+      "name": "信号不稳定/漂移",
+      "keywords": [
+        "信号不稳定",
+        "数据不稳定",
+        "漂移",
+        "间断"
+      ]
+    },
+    "FUNCTION_FAILED": {
+      "name": "功能失效/损坏",
+      "keywords": [
+        "功能失效",
+        "失效",
+        "损坏",
+        "故障",
+        "异常"
+      ]
+    },
+    "CALIBRATION": {
+      "name": "软件/标定异常",
+      "keywords": [
+        "标定",
+        "程序",
+        "数据刷写",
+        "升级"
+      ]
+    },
+    "OVERHEAT": {
+      "name": "过热",
+      "keywords": [
+        "高温",
+        "过热",
+        "温度过高"
+      ]
+    }
+  },
+  "causes": {
+    "MATERIAL_FATIGUE": {
+      "name": "材料疲劳",
+      "keywords": [
+        "疲劳",
+        "材料缺陷"
+      ]
+    },
+    "INSUFFICIENT_LUBRICATION": {
+      "name": "润滑不足",
+      "keywords": [
+        "润滑不足",
+        "缺机油",
+        "机油不足"
+      ]
+    },
+    "CONTAMINATION": {
+      "name": "污染/积碳",
+      "keywords": [
+        "污染",
+        "积碳",
+        "杂质",
+        "脏污"
+      ]
+    },
+    "THERMAL_DAMAGE": {
+      "name": "热损伤",
+      "keywords": [
+        "高温导致",
+        "过热导致",
+        "烧蚀"
+      ]
+    },
+    "MECHANICAL_RUBBING": {
+      "name": "机械摩擦/干涉",
+      "keywords": [
+        "机械摩擦",
+        "部件干涉",
+        "相互摩擦"
+      ]
+    },
+    "SEAL_AGING": {
+      "name": "密封老化",
+      "keywords": [
+        "密封老化",
+        "密封失效",
+        "密封垫损坏"
+      ]
+    },
+    "ASSEMBLY_ERROR": {
+      "name": "装配不当",
+      "keywords": [
+        "装配不当",
+        "安装不到位",
+        "安装错误"
+      ]
+    },
+    "HARNESS_INTERFERENCE": {
+      "name": "线束干涉/磨破",
+      "keywords": [
+        "线束磨破",
+        "线路磨损",
+        "线束干涉"
+      ]
+    },
+    "MAINTENANCE_ERROR": {
+      "name": "维护不当",
+      "keywords": [
+        "保养不当",
+        "未按期保养",
+        "维护不当"
+      ]
+    },
+    "SOFTWARE_CALIBRATION": {
+      "name": "软件/标定",
+      "keywords": [
+        "程序问题",
+        "标定问题",
+        "软件问题"
+      ]
+    },
+    "EXTERNAL_DAMAGE": {
+      "name": "外部损伤",
+      "keywords": [
+        "外力",
+        "碰撞",
+        "异物"
+      ]
+    },
+    "UNKNOWN": {
+      "name": "未说明",
+      "keywords": []
+    }
+  },
+  "symptoms": [
+    "ECM与推荐的康明斯电子服务工具或等同工具无通信",
+    "PTO/ISC不工作",
+    "PTO/ISC超出范围",
+    "不拖动",
+    "低机油油位",
+    "充电系统充电机不充电或充电不足",
+    "充电系统充电机过充",
+    "内部冷却液泄漏",
+    "冷却液液位低",
+    "冷却液混入机油",
+    "冷却液温度低",
+    "冷却液温度高",
+    "冷却液溢流",
+    "功率低",
+    "动力不足",
+    "发动机制动不启用",
+    "发动机制动卡在接通位置",
+    "发动机制动启动慢",
+    "发动机制动开始",
+    "发动机制动无力",
+    "发动机噪声",
+    "发动机失速/停机",
+    "发动机悠车/转速不稳定",
+    "发动机持续运行",
+    "发动机爆震",
+    "发动机超速",
+    "启动困难",
+    "外部冷却液泄漏",
+    "外部机油泄漏",
+    "失火",
+    "巡航控制不工作",
+    "巡航控制超出范围",
+    "异响",
+    "怠速不稳定",
+    "抖动",
+    "拖动缓慢",
+    "振动",
+    "排气噪声",
+    "排气泄漏",
+    "故障灯亮",
+    "无力",
+    "无法启动",
+    "机油压力低",
+    "机油压力高",
+    "机油油位高",
+    "机油消耗",
+    "机油混入冷却液",
+    "机油温度高",
+    "机油滤清器堵塞",
+    "气耗高",
+    "涡轮增压器压缩机密封漏油",
+    "涡轮增压器噪声",
+    "涡轮增压器涡轮密封漏油",
+    "熄火",
+    "燃料消耗过大",
+    "白烟",
+    "皮带噪音/啸叫",
+    "皮带撕裂/皮带磨损",
+    "空气压缩机不能泵气",
+    "空气压缩机噪声",
+    "空气压缩机泵送冷却液",
+    "空气压缩机泵送机油",
+    "空气压缩机空气泄漏噪音",
+    "空气压缩机连续运转/频繁循环",
+    "空调不冷却",
+    "窜气高",
+    "缺火",
+    "缺缸",
+    "蓝烟",
+    "起动困难/马达盘车时间长",
+    "运行粗暴或缺火",
+    "进气管中有机油",
+    "限扭",
+    "限速",
+    "顶置机构噪音",
+    "风扇不运转/运转不稳定",
+    "风扇持续运转/过度操作",
+    "马达盘车但不起动",
+    "高排气温度",
+    "高温",
+    "黑烟"
+  ]
+}

@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+# Preserve research-input bytes, including original line endings and Unicode.
+data/**/*.jsonl -text
+data/**/*.csv -text
+data/**/*.json -text
+data/*.jsonl -text
+data/*.json -text

@@ -1,0 +1,10 @@
+{
+  "thresholds": {
+    "subsystem": 0.98,
+    "component": 0.98,
+    "failure_mode": 0.95,
+    "cause": 0.92,
+    "chain": 0.90
+  }
+}
+

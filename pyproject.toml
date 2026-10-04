@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engine-fault-nlp"
+version = "0.2.0"
+description = "Maintenance work-order extraction, fault knowledge graphs, and risk ranking"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.24,<2", "pandas>=2,<3"]
+
+[project.optional-dependencies]
+ml = ["torch==2.5.1", "transformers==4.46.3", "accelerate>=0.33,<2", "safetensors>=0.4,<1"]
+api = ["fastapi>=0.100,<1", "uvicorn>=0.23,<1"]
+dev = ["pytest>=7,<9", "ruff>=0.9,<1"]
+
+[project.scripts]
+engine-fault-nlp = "engine_fault_nlp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

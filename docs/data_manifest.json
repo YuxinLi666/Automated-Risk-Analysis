@@ -1,0 +1,78 @@
+{
+  "format_version": 1,
+  "privacy": "restricted, non-anonymized; private repository only",
+  "files": [
+    {
+      "path": "data/knowledge_base.json",
+      "sha256": "b5c39f419c99f47bea6321ce19fc7542836f4f365c5b5a0bd623e8ea433f524b",
+      "bytes": 149210,
+      "records": null,
+      "source": "artifacts/new_data/knowledge_base.json",
+      "role": "domain vocabulary and label resources"
+    },
+    {
+      "path": "data/labels/all_work_orders_silver.jsonl",
+      "sha256": "51b5ac77ee0346e491683ac875a0f8de4b7a776da155ba253759755427725fc7",
+      "bytes": 3128692,
+      "records": 2638,
+      "source": "artifacts/new_data/predictions.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/seed/all.jsonl",
+      "sha256": "db2e2d79a3bb91cf9a458521ddc3c6d6cf4281aedbaa4efbecbdfc01653579b9",
+      "bytes": 2898060,
+      "records": 1000,
+      "source": "artifacts/new_data/gold_seed_1000/mecg_rank_preannotated_1000.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/seed/expert_review_pending.csv",
+      "sha256": "c546c42155fea68656ce5c9162bd151605db30ede3d390ca7194932e46f84253",
+      "bytes": 941908,
+      "records": 1024,
+      "source": "artifacts/new_data/gold_seed_1000/mecg_rank_expert_review_1000.csv",
+      "role": "pending expert review worksheet, not adjudicated gold"
+    },
+    {
+      "path": "data/seed/test.jsonl",
+      "sha256": "4d2b3b670a92082be6057ace7f502499f7d7e4d16501dc23ebf746ed6d6a66b4",
+      "bytes": 293847,
+      "records": 100,
+      "source": "artifacts/new_data/gold_seed_1000/mecg_rank_preannotated_1000_test.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/seed/train.jsonl",
+      "sha256": "522bb27c24f423314ddefe5dbb91b8a0603045897bd291f841338a1b18e8245b",
+      "bytes": 2321797,
+      "records": 800,
+      "source": "artifacts/new_data/gold_seed_1000/mecg_rank_preannotated_1000_train.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/seed/validation.jsonl",
+      "sha256": "110a0c676ffafa7f5bf31cd301f44a5e33fdafe59dc4c21530f06173cc4e6e29",
+      "bytes": 282416,
+      "records": 100,
+      "source": "artifacts/new_data/gold_seed_1000/mecg_rank_preannotated_1000_validation.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/unseen/labels.jsonl",
+      "sha256": "f65582ac27c57bf427cd9f2e9105a870d0166a9bec2fa69cda70f5acb489aee7",
+      "bytes": 836889,
+      "records": 727,
+      "source": "artifacts/new_data/silver_model_eval/unseen_727_fault_silver_labels.jsonl",
+      "role": "reference-supervision input, not newly evaluated predictions"
+    },
+    {
+      "path": "data/work_orders.jsonl",
+      "sha256": "e5938250b365e4c0f17017abbb036328bf5c3290b67821f30a44bbbd3d0aa528",
+      "bytes": 2047997,
+      "records": 2638,
+      "source": "artifacts/new_data/work_orders.jsonl",
+      "role": "document-level work-order inputs"
+    }
+  ]
+}

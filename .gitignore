@@ -1,0 +1,47 @@
+# Generated outputs, models and local environments are never release inputs.
+outputs/
+artifacts/
+models/
+results/
+figures/
+logs/
+tmp/
+build/
+dist/
+*.egg-info/
+.venv*/
+.conda/
+.vendor/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.png
+*.jpg
+*.svg
+*.pdf
+*.pptx
+*.docx
+*.graphml
+*.dot
+# Authentication material must never be committed.
+.env
+.env.*
+*.pem
+*.key
+credentials*
+token*
+# Research inputs under data/ are deliberately tracked in this PRIVATE repository.
