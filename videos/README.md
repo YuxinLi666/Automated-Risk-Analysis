@@ -13,7 +13,7 @@ The video covers:
 3. Exploring the radial hierarchical fault knowledge graph.
 4. Selecting Top K fault paths and comparing occurrence counts, cost severity, economic burden, and balanced risk.
 5. Tracing ranked paths to supporting work orders and exporting the analysis results.
-
+6. Exploring clickable markers on the engine image to link approximate component locations with ranked fault paths and supporting work orders.
 ## Upload the video
 
 [Upload an MP4 to this directory](https://github.com/YuxinLi666/Automated-Risk-Analysis/upload/main/videos)
